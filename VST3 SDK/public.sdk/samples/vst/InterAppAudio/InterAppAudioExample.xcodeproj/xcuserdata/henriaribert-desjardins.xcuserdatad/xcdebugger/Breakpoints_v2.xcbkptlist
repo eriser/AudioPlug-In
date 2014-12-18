@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../source/vst/vsteditcontroller.cpp"
+            timestampString = "438874132.555347"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "243"
+            endingLineNumber = "243"
+            landmarkName = "EditController::endEdit (ParamID tag)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../source/vst/interappaudio/VST3Plugin.mm"
+            timestampString = "438874200.711379"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "339"
+            endingLineNumber = "339"
+            landmarkName = "VST3Plugin::onMIDIEvent (UInt32 inStatus, UInt32 data1, UInt32 data2, UInt32 sampleOffset, bool withinRealtimeThread)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../note_expression_synth/source/note_touch_controller.cpp"
+            timestampString = "438874258.571182"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "NoteTouchController::startNote (float velocity)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../note_expression_synth/source/note_touch_controller.cpp"
+            timestampString = "438875100.053446"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "NoteTouchController::NoteTouchController (int32_t pitch, Steinberg::Vst::IInterAppAudioHost* host)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VSTGUI::NoteTouchController::NoteTouchController(int, Steinberg::Vst::IInterAppAudioHost*)"
+                  moduleName = "NoteExpressionSynthExample"
+                  urlString = "file:///Users/henriaribert-desjardins/Documents/Heimat/AudioPlug-In/VST3%20SDK/public.sdk/samples/vst/note_expression_synth/source/note_touch_controller.cpp"
+                  timestampString = "438875186.461867"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "151">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VSTGUI::NoteTouchController::NoteTouchController(int, Steinberg::Vst::IInterAppAudioHost*)"
+                  moduleName = "NoteExpressionSynthExample"
+                  urlString = "file:///Users/henriaribert-desjardins/Documents/Heimat/AudioPlug-In/VST3%20SDK/public.sdk/samples/vst/note_expression_synth/source/note_touch_controller.cpp"
+                  timestampString = "438875186.462041"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "27">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

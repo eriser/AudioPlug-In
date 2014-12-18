@@ -1,0 +1,1969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47096C901A2CA7F000A9197E /* background_iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 47096C8F1A2CA7F000A9197E /* background_iOS.png */; };
+		47096C911A2CA7F000A9197E /* background_iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 47096C8F1A2CA7F000A9197E /* background_iOS.png */; };
+		47096C921A2CA7F000A9197E /* background_iOS.png in Resources */ = {isa = PBXBuildFile; fileRef = 47096C8F1A2CA7F000A9197E /* background_iOS.png */; };
+		470EBF3919FA870800C9A018 /* Editor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 477DFCD119F08ED80075D2BB /* Editor.cpp */; };
+		470EBF5C19FAA39C00C9A018 /* vstguieditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758A04219D98ECD0044FB2E /* vstguieditor.cpp */; };
+		470EBF5D19FAA45C00C9A018 /* vstbus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D219D961890091FE7D /* vstbus.cpp */; };
+		470EBF5E19FAA45C00C9A018 /* vstcomponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D419D961890091FE7D /* vstcomponent.cpp */; };
+		470EBF5F19FAA45C00C9A018 /* vstcomponentbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D619D961890091FE7D /* vstcomponentbase.cpp */; };
+		470EBF6019FAA45C00C9A018 /* vsteditcontroller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D819D961890091FE7D /* vsteditcontroller.cpp */; };
+		470EBF6119FAA45C00C9A018 /* vstparameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811DF19D961890091FE7D /* vstparameters.cpp */; };
+		470EBF6919FABB7A00C9A018 /* vstaudioeffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D019D961890091FE7D /* vstaudioeffect.cpp */; };
+		4715BF111A066D64003A4F6F /* OnOffButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4715BF0F1A066D64003A4F6F /* OnOffButton.cpp */; };
+		4715BF121A066D64003A4F6F /* OnOffButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4715BF0F1A066D64003A4F6F /* OnOffButton.cpp */; };
+		4715BF131A066D64003A4F6F /* OnOffButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4715BF0F1A066D64003A4F6F /* OnOffButton.cpp */; };
+		4715BF151A067D12003A4F6F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4715BF141A067D12003A4F6F /* icon.png */; };
+		4715BF161A067D12003A4F6F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4715BF141A067D12003A4F6F /* icon.png */; };
+		4715BF171A067D12003A4F6F /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4715BF141A067D12003A4F6F /* icon.png */; };
+		4715BF1A1A0696CC003A4F6F /* KickButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4715BF181A0696CC003A4F6F /* KickButton.cpp */; };
+		4715BF1B1A0696CC003A4F6F /* KickButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4715BF181A0696CC003A4F6F /* KickButton.cpp */; };
+		4715BF1C1A0696CC003A4F6F /* KickButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4715BF181A0696CC003A4F6F /* KickButton.cpp */; };
+		4738120319D965E70091FE7D /* conststringtable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811F519D965E70091FE7D /* conststringtable.cpp */; };
+		4738120419D965E70091FE7D /* funknown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811F919D965E70091FE7D /* funknown.cpp */; };
+		4739CDC81A139DAD00A328DB /* Keyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4739CDC51A139DAD00A328DB /* Keyboard.cpp */; };
+		4739CDCD1A139DDB00A328DB /* Keystroke.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4739CDCA1A139DDB00A328DB /* Keystroke.cpp */; };
+		4739CDCF1A13C81300A328DB /* Keyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4739CDC51A139DAD00A328DB /* Keyboard.cpp */; };
+		4739CDD01A13C81300A328DB /* Keystroke.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4739CDCA1A139DDB00A328DB /* Keystroke.cpp */; };
+		473A255119EA8C80007A454E /* pluginview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECEED19CB283F0066BE88 /* pluginview.cpp */; };
+		473AC18919EC0D40005D589E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 473AC18719EC0D40005D589E /* InfoPlist.strings */; };
+		473AC18B19EC0D40005D589E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 473AC18A19EC0D40005D589E /* main.m */; };
+		473AC18F19EC0D40005D589E /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 473AC18E19EC0D40005D589E /* AppDelegate.mm */; };
+		473AC19219EC0D40005D589E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 473AC19019EC0D40005D589E /* Main.storyboard */; };
+		473AC19519EC0D40005D589E /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 473AC19419EC0D40005D589E /* ViewController.mm */; };
+		473AC19719EC0D40005D589E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 473AC19619EC0D40005D589E /* Images.xcassets */; };
+		473AC1BC19EC0EF8005D589E /* conststringtable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811F519D965E70091FE7D /* conststringtable.cpp */; };
+		473AC1BD19EC0EF8005D589E /* funknown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811F919D965E70091FE7D /* funknown.cpp */; };
+		473AC1BE19EC0EF8005D589E /* ustring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECD0E19CB283E0066BE88 /* ustring.cpp */; };
+		473AC1BF19EC0F07005D589E /* pluginview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECEED19CB283F0066BE88 /* pluginview.cpp */; };
+		473AC1C019EC0F0D005D589E /* macmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECEF219CB283F0066BE88 /* macmain.cpp */; };
+		473AC1C119EC0F0D005D589E /* pluginfactoryvst3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECEF319CB283F0066BE88 /* pluginfactoryvst3.cpp */; };
+		473AC1C219EC0F22005D589E /* vstaudioeffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D019D961890091FE7D /* vstaudioeffect.cpp */; };
+		473AC1C319EC0F22005D589E /* vstbus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D219D961890091FE7D /* vstbus.cpp */; };
+		473AC1C419EC0F22005D589E /* vstcomponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D419D961890091FE7D /* vstcomponent.cpp */; };
+		473AC1C519EC0F22005D589E /* vstcomponentbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D619D961890091FE7D /* vstcomponentbase.cpp */; };
+		473AC1C619EC0F22005D589E /* vsteditcontroller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D819D961890091FE7D /* vsteditcontroller.cpp */; };
+		473AC1C719EC0F22005D589E /* vstinitiids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811DC19D961890091FE7D /* vstinitiids.cpp */; };
+		473AC1C819EC0F22005D589E /* vstparameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811DF19D961890091FE7D /* vstparameters.cpp */; };
+		473AC1CA19EC0F51005D589E /* baseiids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECC9F19CB269F0066BE88 /* baseiids.cpp */; };
+		473AC1CB19EC0F51005D589E /* classfactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A250A19EA8BF2007A454E /* classfactory.cpp */; };
+		473AC1CC19EC0F51005D589E /* fatomic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCA219CB269F0066BE88 /* fatomic.cpp */; };
+		473AC1CD19EC0F51005D589E /* fbitset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A250C19EA8BF2007A454E /* fbitset.cpp */; };
+		473AC1CE19EC0F51005D589E /* fbuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCA619CB269F0066BE88 /* fbuffer.cpp */; };
+		473AC1CF19EC0F51005D589E /* fcpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251119EA8BF2007A454E /* fcpu.cpp */; };
+		473AC1D019EC0F51005D589E /* fcriticalperformance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251319EA8BF2007A454E /* fcriticalperformance.cpp */; };
+		473AC1D119EC0F51005D589E /* fdebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCAF19CB269F0066BE88 /* fdebug.cpp */; };
+		473AC1D219EC0F51005D589E /* fdynlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251519EA8BF2007A454E /* fdynlib.cpp */; };
+		473AC1D319EC0F51005D589E /* finitializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251819EA8BF2007A454E /* finitializer.cpp */; };
+		473AC1D419EC0F51005D589E /* fmemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251A19EA8BF2007A454E /* fmemory.cpp */; };
+		473AC1D519EC0F51005D589E /* fobject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCB819CB269F0066BE88 /* fobject.cpp */; };
+		473AC1D619EC0F51005D589E /* fpoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251C19EA8BF2007A454E /* fpoint.cpp */; };
+		473AC1D719EC0F51005D589E /* frect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251E19EA8BF2007A454E /* frect.cpp */; };
+		473AC1D819EC0F51005D589E /* fregion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A252019EA8BF2007A454E /* fregion.cpp */; };
+		473AC1D919EC0F51005D589E /* fstreamer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCC119CB269F0066BE88 /* fstreamer.cpp */; };
+		473AC1DA19EC0F51005D589E /* fstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCC319CB269F0066BE88 /* fstring.cpp */; };
+		473AC1DB19EC0F51005D589E /* fthread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCC619CB269F0066BE88 /* fthread.cpp */; };
+		473AC1DC19EC0F51005D589E /* istreamwrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A252519EA8BF2007A454E /* istreamwrapper.cpp */; };
+		473AC1DD19EC0F51005D589E /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCD819CB269F0066BE88 /* timer.cpp */; };
+		473AC1DE19EC0F51005D589E /* updatehandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCDF19CB269F0066BE88 /* updatehandler.cpp */; };
+		473AC1DF19EC0F65005D589E /* factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758A03D19D984020044FB2E /* factory.cpp */; };
+		473AC1E019EC0F73005D589E /* ParametersDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47F494F019D01C1400965566 /* ParametersDescription.cpp */; };
+		473AC1E119EC0F7E005D589E /* Knob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47C8D27F19E59EFE008DA86D /* Knob.cpp */; };
+		473AC1E419EC0F8A005D589E /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47B937F919CC6D6D00B18B29 /* Controller.cpp */; };
+		473AC1E619EC0F93005D589E /* Processor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47B937F419CC657700B18B29 /* Processor.cpp */; };
+		473AC1E719EC0F93005D589E /* VoiceProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758BC6D19D84FC40044F0DD /* VoiceProcessor.cpp */; };
+		473AC1E819EC0F93005D589E /* Voice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758BC7319D864BE0044F0DD /* Voice.cpp */; };
+		473AC1E919EC0F93005D589E /* EffectProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758A04519D9B5530044FB2E /* EffectProcessor.cpp */; };
+		473AC1EA19EC0F93005D589E /* Delay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47F25D5619DB3C7200EFDBD8 /* Delay.cpp */; };
+		474203C219FF9B60005EB8F4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E1A72619FF955E0044D936 /* QuartzCore.framework */; };
+		474203C319FF9B7C005EB8F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E1A71919FF95340044D936 /* CoreGraphics.framework */; };
+		474203C419FF9B91005EB8F4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E1A71E19FF95400044D936 /* CoreText.framework */; };
+		474203C819FFA9F2005EB8F4 /* HeyMate-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 47AECC8619CB1AA50066BE88 /* HeyMate-Info.plist */; };
+		474203C919FFD0BB005EB8F4 /* classfactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A250A19EA8BF2007A454E /* classfactory.cpp */; };
+		474203CA19FFD0C4005EB8F4 /* classfactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A250A19EA8BF2007A454E /* classfactory.cpp */; };
+		474203CB19FFD0C9005EB8F4 /* fbitset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A250C19EA8BF2007A454E /* fbitset.cpp */; };
+		474203CC19FFD0CA005EB8F4 /* fbitset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A250C19EA8BF2007A454E /* fbitset.cpp */; };
+		474203CD19FFD0D0005EB8F4 /* fcpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251119EA8BF2007A454E /* fcpu.cpp */; };
+		474203CE19FFD0D1005EB8F4 /* fcpu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251119EA8BF2007A454E /* fcpu.cpp */; };
+		474203D119FFD0DA005EB8F4 /* fdynlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251519EA8BF2007A454E /* fdynlib.cpp */; };
+		474203D219FFD0DA005EB8F4 /* fdynlib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251519EA8BF2007A454E /* fdynlib.cpp */; };
+		474203D319FFD0DE005EB8F4 /* finitializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251819EA8BF2007A454E /* finitializer.cpp */; };
+		474203D419FFD0DF005EB8F4 /* finitializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251819EA8BF2007A454E /* finitializer.cpp */; };
+		474203D519FFD0E1005EB8F4 /* fmemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251A19EA8BF2007A454E /* fmemory.cpp */; };
+		474203D619FFD0E2005EB8F4 /* fmemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251A19EA8BF2007A454E /* fmemory.cpp */; };
+		474203D719FFD0E7005EB8F4 /* fpoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251C19EA8BF2007A454E /* fpoint.cpp */; };
+		474203D819FFD0E8005EB8F4 /* fpoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251C19EA8BF2007A454E /* fpoint.cpp */; };
+		474203D919FFD0EB005EB8F4 /* frect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251E19EA8BF2007A454E /* frect.cpp */; };
+		474203DA19FFD0EB005EB8F4 /* frect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A251E19EA8BF2007A454E /* frect.cpp */; };
+		474203DB19FFD0EE005EB8F4 /* fregion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A252019EA8BF2007A454E /* fregion.cpp */; };
+		474203DC19FFD0EE005EB8F4 /* fregion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A252019EA8BF2007A454E /* fregion.cpp */; };
+		474203DD19FFD0FC005EB8F4 /* istreamwrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A252519EA8BF2007A454E /* istreamwrapper.cpp */; };
+		474203DE19FFD0FC005EB8F4 /* istreamwrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473A252519EA8BF2007A454E /* istreamwrapper.cpp */; };
+		4745126719FE4C4D002D9138 /* fdebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCAF19CB269F0066BE88 /* fdebug.cpp */; };
+		4745126819FE4C4D002D9138 /* baseiids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECC9F19CB269F0066BE88 /* baseiids.cpp */; };
+		4745126919FE4C4D002D9138 /* GraphicHelp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4770D4B419F6DC4A00579BF8 /* GraphicHelp.mm */; };
+		4745126A19FE4C4D002D9138 /* EffectBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4770D4A919F689F600579BF8 /* EffectBase.cpp */; };
+		4745126B19FE4C4D002D9138 /* fthread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCC619CB269F0066BE88 /* fthread.cpp */; };
+		4745126C19FE4C4D002D9138 /* HeyMate_vst2wrapper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 470EBF5019FA99CB00C9A018 /* HeyMate_vst2wrapper.cpp */; };
+		4745126D19FE4C4D002D9138 /* vstcomponent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D419D961890091FE7D /* vstcomponent.cpp */; };
+		4745126E19FE4C4D002D9138 /* ParametersDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47F494F019D01C1400965566 /* ParametersDescription.cpp */; };
+		4745126F19FE4C4D002D9138 /* Voice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758BC7319D864BE0044F0DD /* Voice.cpp */; };
+		4745127019FE4C4D002D9138 /* vst2wrapper.sdk.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECF3C19CB28400066BE88 /* vst2wrapper.sdk.cpp */; };
+		4745127119FE4C4D002D9138 /* conststringtable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811F519D965E70091FE7D /* conststringtable.cpp */; };
+		4745127219FE4C4D002D9138 /* vstaudioeffect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D019D961890091FE7D /* vstaudioeffect.cpp */; };
+		4745127319FE4C4D002D9138 /* vstparameters.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811DF19D961890091FE7D /* vstparameters.cpp */; };
+		4745127519FE4C4D002D9138 /* factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758A03D19D984020044FB2E /* factory.cpp */; };
+		4745127619FE4C4D002D9138 /* vstgui_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCF719CB27040066BE88 /* vstgui_mac.mm */; };
+		4745127719FE4C4D002D9138 /* ustring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECD0E19CB283E0066BE88 /* ustring.cpp */; };
+		4745127819FE4C4D002D9138 /* vstinitiids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811DC19D961890091FE7D /* vstinitiids.cpp */; };
+		4745127919FE4C4D002D9138 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47B937F919CC6D6D00B18B29 /* Controller.cpp */; };
+		4745127A19FE4C4D002D9138 /* vstbus.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D219D961890091FE7D /* vstbus.cpp */; };
+		4745127B19FE4C4D002D9138 /* fobject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCB819CB269F0066BE88 /* fobject.cpp */; };
+		4745127C19FE4C4D002D9138 /* Delay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47F25D5619DB3C7200EFDBD8 /* Delay.cpp */; };
+		4745127D19FE4C4D002D9138 /* fbuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCA619CB269F0066BE88 /* fbuffer.cpp */; };
+		4745127E19FE4C4D002D9138 /* macmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECEF219CB283F0066BE88 /* macmain.cpp */; };
+		4745127F19FE4C4D002D9138 /* GraphicComponentsList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4770D4BB19F6F34D00579BF8 /* GraphicComponentsList.cpp */; };
+		4745128019FE4C4D002D9138 /* fstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCC319CB269F0066BE88 /* fstring.cpp */; };
+		4745128119FE4C4D002D9138 /* fstreamer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCC119CB269F0066BE88 /* fstreamer.cpp */; };
+		4745128219FE4C4D002D9138 /* Editor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 477DFCD119F08ED80075D2BB /* Editor.cpp */; };
+		4745128319FE4C4D002D9138 /* pluginview.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECEED19CB283F0066BE88 /* pluginview.cpp */; };
+		4745128419FE4C4D002D9138 /* vstcomponentbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D619D961890091FE7D /* vstcomponentbase.cpp */; };
+		4745128519FE4C4D002D9138 /* vsteditcontroller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811D819D961890091FE7D /* vsteditcontroller.cpp */; };
+		4745128619FE4C4D002D9138 /* Processor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47B937F419CC657700B18B29 /* Processor.cpp */; };
+		4745128719FE4C4D002D9138 /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCD819CB269F0066BE88 /* timer.cpp */; };
+		4745128819FE4C4D002D9138 /* Knob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47C8D27F19E59EFE008DA86D /* Knob.cpp */; };
+		4745128919FE4C4D002D9138 /* EffectProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758A04519D9B5530044FB2E /* EffectProcessor.cpp */; };
+		4745128A19FE4C4D002D9138 /* VoiceProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758BC6D19D84FC40044F0DD /* VoiceProcessor.cpp */; };
+		4745128B19FE4C4D002D9138 /* funknown.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811F919D965E70091FE7D /* funknown.cpp */; };
+		4745128C19FE4C4D002D9138 /* vstguieditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758A04219D98ECD0044FB2E /* vstguieditor.cpp */; };
+		4745128D19FE4C4D002D9138 /* fatomic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCA219CB269F0066BE88 /* fatomic.cpp */; };
+		4745128E19FE4C4D002D9138 /* pluginfactoryvst3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECEF319CB283F0066BE88 /* pluginfactoryvst3.cpp */; };
+		4745128F19FE4C4D002D9138 /* updatehandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCDF19CB269F0066BE88 /* updatehandler.cpp */; };
+		4745129119FE4C4D002D9138 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AECC9619CB1EEE0066BE88 /* OpenGL.framework */; };
+		4745129219FE4C4D002D9138 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AECC9419CB1EE80066BE88 /* QuartzCore.framework */; };
+		4745129319FE4C4D002D9138 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AECC9219CB1EDD0066BE88 /* Accelerate.framework */; };
+		4745129419FE4C4D002D9138 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AECC9019CB1ED50066BE88 /* Carbon.framework */; };
+		4745129519FE4C4D002D9138 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AECC7E19CB1AA50066BE88 /* Cocoa.framework */; };
+		4745129819FE4C4D002D9138 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 47502C7219F7EA0700D46C58 /* background.png */; };
+		4745129919FE4C4D002D9138 /* PkgInfo in Resources */ = {isa = PBXBuildFile; fileRef = 47AECC8E19CB1B250066BE88 /* PkgInfo */; };
+		4745129A19FE4C4D002D9138 /* knobbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D9BBD519F8EDF70057E5A8 /* knobbackground.png */; };
+		474512A519FE673C002D9138 /* factory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758A03D19D984020044FB2E /* factory.cpp */; };
+		47502C7319F7EA0700D46C58 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 47502C7219F7EA0700D46C58 /* background.png */; };
+		47502C7419F7EA2700D46C58 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 47502C7219F7EA0700D46C58 /* background.png */; };
+		4757000319F14D7F005C9729 /* NSDataIBStream.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4757FFF519F14D7F005C9729 /* NSDataIBStream.mm */; };
+		4757000A19F14DC8005C9729 /* processdata.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4757FFC919F14D24005C9729 /* processdata.cpp */; };
+		4757000B19F14DD0005C9729 /* eventlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4757FFC319F14D24005C9729 /* eventlist.cpp */; };
+		4757000C19F14DD5005C9729 /* hostclasses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4757FFC519F14D24005C9729 /* hostclasses.cpp */; };
+		4757FFC119F14CAA005C9729 /* vstpresetfile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4757FFBE19F14CA6005C9729 /* vstpresetfile.cpp */; };
+		4757FFD119F14D31005C9729 /* parameterchanges.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4757FFC719F14D24005C9729 /* parameterchanges.cpp */; };
+		4758A03C19D983E30044FB2E /* macmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECEF219CB283F0066BE88 /* macmain.cpp */; };
+		4758A04019D988BE0044FB2E /* vstgui_mac.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCF719CB27040066BE88 /* vstgui_mac.mm */; };
+		4758A04119D98EB10044FB2E /* pluginfactoryvst3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECEF319CB283F0066BE88 /* pluginfactoryvst3.cpp */; };
+		4758A04719D9B5530044FB2E /* EffectProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758A04519D9B5530044FB2E /* EffectProcessor.cpp */; };
+		4758BC6F19D84FC40044F0DD /* VoiceProcessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758BC6D19D84FC40044F0DD /* VoiceProcessor.cpp */; };
+		4758BC7519D864BE0044F0DD /* Voice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758BC7319D864BE0044F0DD /* Voice.cpp */; };
+		4759C9D81A431FF900728B5F /* heimat-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4759C9D71A431FF900728B5F /* heimat-icon.icns */; };
+		4759C9D91A431FF900728B5F /* heimat-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4759C9D71A431FF900728B5F /* heimat-icon.icns */; };
+		4759C9DA1A431FF900728B5F /* heimat-icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 4759C9D71A431FF900728B5F /* heimat-icon.icns */; };
+		477030511A07C99F0032B455 /* switchVertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 477030501A07C99F0032B455 /* switchVertical.png */; };
+		477030521A07C99F0032B455 /* switchVertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 477030501A07C99F0032B455 /* switchVertical.png */; };
+		477030531A07C99F0032B455 /* switchVertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 477030501A07C99F0032B455 /* switchVertical.png */; };
+		477030551A07CD5F0032B455 /* switch.png in Resources */ = {isa = PBXBuildFile; fileRef = 477030541A07CD5F0032B455 /* switch.png */; };
+		477030561A07CD5F0032B455 /* switch.png in Resources */ = {isa = PBXBuildFile; fileRef = 477030541A07CD5F0032B455 /* switch.png */; };
+		477030571A07CD5F0032B455 /* switch.png in Resources */ = {isa = PBXBuildFile; fileRef = 477030541A07CD5F0032B455 /* switch.png */; };
+		4770D4AC19F6A06400579BF8 /* EffectBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4770D4A919F689F600579BF8 /* EffectBase.cpp */; };
+		4770D4AD19F6A06800579BF8 /* EffectBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4770D4A919F689F600579BF8 /* EffectBase.cpp */; };
+		4770D4B119F6D42500579BF8 /* Editor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 477DFCD119F08ED80075D2BB /* Editor.cpp */; };
+		4770D4B219F6D45700579BF8 /* vstguieditor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4758A04219D98ECD0044FB2E /* vstguieditor.cpp */; };
+		4770D4B319F6D45F00579BF8 /* vstgui_ios.mm in Sources */ = {isa = PBXBuildFile; fileRef = 471CF9CB19E846CE00D9020A /* vstgui_ios.mm */; };
+		4770D4B619F6DC4A00579BF8 /* GraphicHelp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4770D4B419F6DC4A00579BF8 /* GraphicHelp.mm */; };
+		4770D4B719F6DC5200579BF8 /* GraphicHelp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4770D4B419F6DC4A00579BF8 /* GraphicHelp.mm */; };
+		4770D4BD19F6F34D00579BF8 /* GraphicComponentsList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4770D4BB19F6F34D00579BF8 /* GraphicComponentsList.cpp */; };
+		4770D4BE19F6F34D00579BF8 /* GraphicComponentsList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4770D4BB19F6F34D00579BF8 /* GraphicComponentsList.cpp */; };
+		477123781A23AD56004B188D /* Keyboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4739CDC51A139DAD00A328DB /* Keyboard.cpp */; };
+		477123791A23AD56004B188D /* Keystroke.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4739CDCA1A139DDB00A328DB /* Keystroke.cpp */; };
+		4771237A1A23ADE6004B188D /* HeyMateVST2-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 474512A019FE4C4E002D9138 /* HeyMateVST2-Info.plist */; };
+		4777E7C91A02CA9500D626E1 /* handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4777E7C81A02CA9500D626E1 /* handle.png */; };
+		4777E7CA1A02CB4900D626E1 /* handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4777E7C81A02CA9500D626E1 /* handle.png */; };
+		4777E7CB1A02CB4A00D626E1 /* handle.png in Resources */ = {isa = PBXBuildFile; fileRef = 4777E7C81A02CA9500D626E1 /* handle.png */; };
+		477DFCBD19F028F40075D2BB /* HostApp.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47AECF2219CB28400066BE88 /* HostApp.mm */; };
+		477DFCBE19F028F40075D2BB /* PresetBrowserView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47AECF2519CB28400066BE88 /* PresetBrowserView.xib */; };
+		477DFCBF19F028F40075D2BB /* PresetBrowserViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47AECF2719CB28400066BE88 /* PresetBrowserViewController.mm */; };
+		477DFCC119F028F40075D2BB /* PresetSaveView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47AECF2A19CB28400066BE88 /* PresetSaveView.xib */; };
+		477DFCC219F028F40075D2BB /* PresetSaveViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47AECF2C19CB28400066BE88 /* PresetSaveViewController.mm */; };
+		477DFCC319F028F40075D2BB /* SettingsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47AECF2D19CB28400066BE88 /* SettingsView.xib */; };
+		477DFCC419F028F40075D2BB /* SettingsViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47AECF2F19CB28400066BE88 /* SettingsViewController.mm */; };
+		4784652419EEE374008127CF /* AudioIO.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47AECF2019CB28400066BE88 /* AudioIO.mm */; };
+		4784652519EEE374008127CF /* MidiIO.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47AECF2419CB28400066BE88 /* MidiIO.mm */; };
+		4784652619EEE390008127CF /* VST3Plugin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47AECF3319CB28400066BE88 /* VST3Plugin.mm */; };
+		47919C1E19FE8F5A00A03A52 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AECC9419CB1EE80066BE88 /* QuartzCore.framework */; };
+		47ABEA541A053A710096EE24 /* TextLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47ABEA521A053A710096EE24 /* TextLabel.cpp */; };
+		47ABEA551A053A710096EE24 /* TextLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47ABEA521A053A710096EE24 /* TextLabel.cpp */; };
+		47ABEA561A053A710096EE24 /* TextLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47ABEA521A053A710096EE24 /* TextLabel.cpp */; };
+		47AECC7F19CB1AA50066BE88 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AECC7E19CB1AA50066BE88 /* Cocoa.framework */; };
+		47AECC8919CB1AA50066BE88 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 47AECC8719CB1AA50066BE88 /* InfoPlist.strings */; };
+		47AECC8F19CB1B250066BE88 /* PkgInfo in Resources */ = {isa = PBXBuildFile; fileRef = 47AECC8E19CB1B250066BE88 /* PkgInfo */; };
+		47AECC9119CB1ED50066BE88 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AECC9019CB1ED50066BE88 /* Carbon.framework */; };
+		47AECC9319CB1EDD0066BE88 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AECC9219CB1EDD0066BE88 /* Accelerate.framework */; };
+		47AECC9719CB1EEE0066BE88 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AECC9619CB1EEE0066BE88 /* OpenGL.framework */; };
+		47AECCE119CB269F0066BE88 /* baseiids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECC9F19CB269F0066BE88 /* baseiids.cpp */; };
+		47AECCE319CB269F0066BE88 /* fatomic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCA219CB269F0066BE88 /* fatomic.cpp */; };
+		47AECCE519CB269F0066BE88 /* fbuffer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCA619CB269F0066BE88 /* fbuffer.cpp */; };
+		47AECCE819CB269F0066BE88 /* fdebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCAF19CB269F0066BE88 /* fdebug.cpp */; };
+		47AECCEC19CB269F0066BE88 /* fobject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCB819CB269F0066BE88 /* fobject.cpp */; };
+		47AECCF019CB269F0066BE88 /* fstreamer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCC119CB269F0066BE88 /* fstreamer.cpp */; };
+		47AECCF119CB269F0066BE88 /* fstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCC319CB269F0066BE88 /* fstring.cpp */; };
+		47AECCF219CB269F0066BE88 /* fthread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCC619CB269F0066BE88 /* fthread.cpp */; };
+		47AECCF419CB269F0066BE88 /* timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCD819CB269F0066BE88 /* timer.cpp */; };
+		47AECCF519CB269F0066BE88 /* updatehandler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECCDF19CB269F0066BE88 /* updatehandler.cpp */; };
+		47AECF6219CB28400066BE88 /* ustring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47AECD0E19CB283E0066BE88 /* ustring.cpp */; };
+		47AEEB5B1A07B3D20093C335 /* SwitchVertical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4715BF1D1A06ACB2003A4F6F /* SwitchVertical.cpp */; };
+		47B937F619CC657700B18B29 /* Processor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47B937F419CC657700B18B29 /* Processor.cpp */; };
+		47B937FB19CC6D6D00B18B29 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47B937F919CC6D6D00B18B29 /* Controller.cpp */; };
+		47BAC4D61A07E8AC0037470A /* SwitchVertical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4715BF1D1A06ACB2003A4F6F /* SwitchVertical.cpp */; };
+		47BAC4D71A07E8AD0037470A /* SwitchVertical.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4715BF1D1A06ACB2003A4F6F /* SwitchVertical.cpp */; };
+		47BAC4DA1A07F2930037470A /* SwitchHorizontal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47BAC4D81A07F2930037470A /* SwitchHorizontal.cpp */; };
+		47BAC4DB1A07F2930037470A /* SwitchHorizontal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47BAC4D81A07F2930037470A /* SwitchHorizontal.cpp */; };
+		47BAC4DC1A07F2930037470A /* SwitchHorizontal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47BAC4D81A07F2930037470A /* SwitchHorizontal.cpp */; };
+		47C8D29719E5BA3B008DA86D /* Knob.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47C8D27F19E59EFE008DA86D /* Knob.cpp */; };
+		47D3C6E01A02992F00CAA8BE /* Slider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47D3C6DE1A02992F00CAA8BE /* Slider.cpp */; };
+		47D3C6E11A02992F00CAA8BE /* Slider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47D3C6DE1A02992F00CAA8BE /* Slider.cpp */; };
+		47D3C6E31A02A1D500CAA8BE /* Slider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47D3C6DE1A02992F00CAA8BE /* Slider.cpp */; };
+		47D9BBD619F8EDF70057E5A8 /* knobbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D9BBD519F8EDF70057E5A8 /* knobbackground.png */; };
+		47D9BBD719F8EDFC0057E5A8 /* knobbackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 47D9BBD519F8EDF70057E5A8 /* knobbackground.png */; };
+		47E1A70C19FF90D80044D936 /* PresetManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 47AECF2919CB28400066BE88 /* PresetManager.mm */; };
+		47E1A70F19FF94F10044D936 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E1A70E19FF94F10044D936 /* UIKit.framework */; };
+		47E1A71119FF94FD0044D936 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E1A71019FF94FD0044D936 /* MobileCoreServices.framework */; };
+		47E1A71319FF95180044D936 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E1A71219FF95180044D936 /* ImageIO.framework */; };
+		47E1A71719FF95260044D936 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E1A71519FF95260044D936 /* GLKit.framework */; };
+		47E1A71D19FF95340044D936 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E1A71A19FF95340044D936 /* CoreMIDI.framework */; };
+		47E1A72319FF95510044D936 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E1A72019FF95510044D936 /* Accelerate.framework */; };
+		47E1A72519FF95510044D936 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E1A72219FF95510044D936 /* AVFoundation.framework */; };
+		47E1A72819FF98B40044D936 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47E1A72119FF95510044D936 /* AudioToolbox.framework */; };
+		47EEF3B819EB32E400E5341C /* vstinitiids.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 473811DC19D961890091FE7D /* vstinitiids.cpp */; };
+		47F25D5819DB3C7200EFDBD8 /* Delay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47F25D5619DB3C7200EFDBD8 /* Delay.cpp */; };
+		47F494F219D01C1500965566 /* ParametersDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 47F494F019D01C1400965566 /* ParametersDescription.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		47096C8F1A2CA7F000A9197E /* background_iOS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background_iOS.png; path = bitmaps/background_iOS.png; sourceTree = "<group>"; };
+		470B341B19FE8CE400C68AF0 /* vstgui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vstgui.h; path = "../VST3 SDK/vstgui4/vstgui/vstgui.h"; sourceTree = "<group>"; };
+		470EBF5019FA99CB00C9A018 /* HeyMate_vst2wrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeyMate_vst2wrapper.cpp; sourceTree = "<group>"; };
+		4715BF0F1A066D64003A4F6F /* OnOffButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = OnOffButton.cpp; path = ../../Graphics/Elements/OnOffButton.cpp; sourceTree = "<group>"; };
+		4715BF101A066D64003A4F6F /* OnOffButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OnOffButton.h; path = ../../Graphics/Elements/OnOffButton.h; sourceTree = "<group>"; };
+		4715BF141A067D12003A4F6F /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = bitmaps/icon.png; sourceTree = "<group>"; };
+		4715BF181A0696CC003A4F6F /* KickButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = KickButton.cpp; path = ../../Graphics/Elements/KickButton.cpp; sourceTree = "<group>"; };
+		4715BF191A0696CC003A4F6F /* KickButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KickButton.h; path = ../../Graphics/Elements/KickButton.h; sourceTree = "<group>"; };
+		4715BF1D1A06ACB2003A4F6F /* SwitchVertical.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwitchVertical.cpp; path = ../../Graphics/Elements/SwitchVertical.cpp; sourceTree = "<group>"; };
+		4715BF1E1A06ACB2003A4F6F /* SwitchVertical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwitchVertical.h; path = ../../Graphics/Elements/SwitchVertical.h; sourceTree = "<group>"; };
+		471CF9CB19E846CE00D9020A /* vstgui_ios.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = vstgui_ios.mm; path = "../VST3 SDK/vstgui4/vstgui/vstgui_ios.mm"; sourceTree = "<group>"; };
+		473811D019D961890091FE7D /* vstaudioeffect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vstaudioeffect.cpp; path = ../vstaudioeffect.cpp; sourceTree = "<group>"; };
+		473811D119D961890091FE7D /* vstaudioeffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vstaudioeffect.h; path = ../vstaudioeffect.h; sourceTree = "<group>"; };
+		473811D219D961890091FE7D /* vstbus.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vstbus.cpp; path = ../vstbus.cpp; sourceTree = "<group>"; };
+		473811D319D961890091FE7D /* vstbus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vstbus.h; path = "/Users/henriaribert-desjardins/Documents/Heimat/VST3 SDK/public.sdk/source/vst/vstbus.h"; sourceTree = "<absolute>"; };
+		473811D419D961890091FE7D /* vstcomponent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vstcomponent.cpp; path = ../vstcomponent.cpp; sourceTree = "<group>"; };
+		473811D519D961890091FE7D /* vstcomponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vstcomponent.h; path = ../vstcomponent.h; sourceTree = "<group>"; };
+		473811D619D961890091FE7D /* vstcomponentbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vstcomponentbase.cpp; path = ../vstcomponentbase.cpp; sourceTree = "<group>"; };
+		473811D719D961890091FE7D /* vstcomponentbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vstcomponentbase.h; path = ../vstcomponentbase.h; sourceTree = "<group>"; };
+		473811D819D961890091FE7D /* vsteditcontroller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vsteditcontroller.cpp; path = ../vsteditcontroller.cpp; sourceTree = "<group>"; };
+		473811D919D961890091FE7D /* vsteditcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vsteditcontroller.h; path = ../vsteditcontroller.h; sourceTree = "<group>"; };
+		473811DC19D961890091FE7D /* vstinitiids.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vstinitiids.cpp; path = ../vstinitiids.cpp; sourceTree = "<group>"; };
+		473811DF19D961890091FE7D /* vstparameters.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vstparameters.cpp; path = ../vstparameters.cpp; sourceTree = "<group>"; };
+		473811E019D961890091FE7D /* vstparameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vstparameters.h; path = ../vstparameters.h; sourceTree = "<group>"; };
+		473811F519D965E70091FE7D /* conststringtable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = conststringtable.cpp; sourceTree = "<group>"; };
+		473811F919D965E70091FE7D /* funknown.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = funknown.cpp; sourceTree = "<group>"; };
+		4739CDC51A139DAD00A328DB /* Keyboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Keyboard.cpp; path = ../../Graphics/Elements/Keyboard.cpp; sourceTree = "<group>"; };
+		4739CDC61A139DAD00A328DB /* Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keyboard.h; path = ../../Graphics/Elements/Keyboard.h; sourceTree = "<group>"; };
+		4739CDCA1A139DDB00A328DB /* Keystroke.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Keystroke.cpp; path = ../../Graphics/Elements/Keystroke.cpp; sourceTree = "<group>"; };
+		4739CDCB1A139DDB00A328DB /* Keystroke.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Keystroke.h; path = ../../Graphics/Elements/Keystroke.h; sourceTree = "<group>"; };
+		473A250A19EA8BF2007A454E /* classfactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = classfactory.cpp; path = "../VST3 SDK/base/source/classfactory.cpp"; sourceTree = "<group>"; };
+		473A250B19EA8BF2007A454E /* classfactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = classfactory.h; path = "../VST3 SDK/base/source/classfactory.h"; sourceTree = "<group>"; };
+		473A250C19EA8BF2007A454E /* fbitset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fbitset.cpp; path = "../VST3 SDK/base/source/fbitset.cpp"; sourceTree = "<group>"; };
+		473A250D19EA8BF2007A454E /* fbitset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fbitset.h; path = "../VST3 SDK/base/source/fbitset.h"; sourceTree = "<group>"; };
+		473A250E19EA8BF2007A454E /* fcleanup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fcleanup.h; path = "../VST3 SDK/base/source/fcleanup.h"; sourceTree = "<group>"; };
+		473A250F19EA8BF2007A454E /* fcommandline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fcommandline.h; path = "../VST3 SDK/base/source/fcommandline.h"; sourceTree = "<group>"; };
+		473A251019EA8BF2007A454E /* fcontainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fcontainer.h; path = "../VST3 SDK/base/source/fcontainer.h"; sourceTree = "<group>"; };
+		473A251119EA8BF2007A454E /* fcpu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fcpu.cpp; path = "../VST3 SDK/base/source/fcpu.cpp"; sourceTree = "<group>"; };
+		473A251219EA8BF2007A454E /* fcpu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fcpu.h; path = "../VST3 SDK/base/source/fcpu.h"; sourceTree = "<group>"; };
+		473A251319EA8BF2007A454E /* fcriticalperformance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fcriticalperformance.cpp; path = "../VST3 SDK/base/source/fcriticalperformance.cpp"; sourceTree = "<group>"; };
+		473A251419EA8BF2007A454E /* fcriticalperformance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fcriticalperformance.h; path = "../VST3 SDK/base/source/fcriticalperformance.h"; sourceTree = "<group>"; };
+		473A251519EA8BF2007A454E /* fdynlib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fdynlib.cpp; path = "../VST3 SDK/base/source/fdynlib.cpp"; sourceTree = "<group>"; };
+		473A251619EA8BF2007A454E /* fdynlib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fdynlib.h; path = "../VST3 SDK/base/source/fdynlib.h"; sourceTree = "<group>"; };
+		473A251719EA8BF2007A454E /* fgeoconstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fgeoconstants.h; path = "../VST3 SDK/base/source/fgeoconstants.h"; sourceTree = "<group>"; };
+		473A251819EA8BF2007A454E /* finitializer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = finitializer.cpp; path = "../VST3 SDK/base/source/finitializer.cpp"; sourceTree = "<group>"; };
+		473A251919EA8BF2007A454E /* finitializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = finitializer.h; path = "../VST3 SDK/base/source/finitializer.h"; sourceTree = "<group>"; };
+		473A251A19EA8BF2007A454E /* fmemory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fmemory.cpp; path = "../VST3 SDK/base/source/fmemory.cpp"; sourceTree = "<group>"; };
+		473A251B19EA8BF2007A454E /* fmemory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fmemory.h; path = "../VST3 SDK/base/source/fmemory.h"; sourceTree = "<group>"; };
+		473A251C19EA8BF2007A454E /* fpoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fpoint.cpp; path = "../VST3 SDK/base/source/fpoint.cpp"; sourceTree = "<group>"; };
+		473A251D19EA8BF2007A454E /* fpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fpoint.h; path = "../VST3 SDK/base/source/fpoint.h"; sourceTree = "<group>"; };
+		473A251E19EA8BF2007A454E /* frect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = frect.cpp; path = "../VST3 SDK/base/source/frect.cpp"; sourceTree = "<group>"; };
+		473A251F19EA8BF2007A454E /* frect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = frect.h; path = "../VST3 SDK/base/source/frect.h"; sourceTree = "<group>"; };
+		473A252019EA8BF2007A454E /* fregion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fregion.cpp; path = "../VST3 SDK/base/source/fregion.cpp"; sourceTree = "<group>"; };
+		473A252119EA8BF2007A454E /* fregion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fregion.h; path = "../VST3 SDK/base/source/fregion.h"; sourceTree = "<group>"; };
+		473A252219EA8BF2007A454E /* fstdmethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fstdmethods.h; path = "../VST3 SDK/base/source/fstdmethods.h"; sourceTree = "<group>"; };
+		473A252319EA8BF2007A454E /* fstringmethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fstringmethods.h; path = "../VST3 SDK/base/source/fstringmethods.h"; sourceTree = "<group>"; };
+		473A252419EA8BF2007A454E /* hexbinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hexbinary.h; path = "../VST3 SDK/base/source/hexbinary.h"; sourceTree = "<group>"; };
+		473A252519EA8BF2007A454E /* istreamwrapper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = istreamwrapper.cpp; path = "../VST3 SDK/base/source/istreamwrapper.cpp"; sourceTree = "<group>"; };
+		473A252619EA8BF2007A454E /* istreamwrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = istreamwrapper.h; path = "../VST3 SDK/base/source/istreamwrapper.h"; sourceTree = "<group>"; };
+		473A252719EA8BF2007A454E /* tarray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tarray.h; path = "../VST3 SDK/base/source/tarray.h"; sourceTree = "<group>"; };
+		473A252819EA8BF2007A454E /* tassociation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tassociation.h; path = "../VST3 SDK/base/source/tassociation.h"; sourceTree = "<group>"; };
+		473A252919EA8BF2007A454E /* tbag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tbag.h; path = "../VST3 SDK/base/source/tbag.h"; sourceTree = "<group>"; };
+		473A252A19EA8BF2007A454E /* tbinarytree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tbinarytree.h; path = "../VST3 SDK/base/source/tbinarytree.h"; sourceTree = "<group>"; };
+		473A252B19EA8BF2007A454E /* tbtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tbtree.h; path = "../VST3 SDK/base/source/tbtree.h"; sourceTree = "<group>"; };
+		473A252C19EA8BF2007A454E /* tbtreedictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tbtreedictionary.h; path = "../VST3 SDK/base/source/tbtreedictionary.h"; sourceTree = "<group>"; };
+		473A252D19EA8BF2007A454E /* tbtreeset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tbtreeset.h; path = "../VST3 SDK/base/source/tbtreeset.h"; sourceTree = "<group>"; };
+		473A252E19EA8BF2007A454E /* tcontainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tcontainer.h; path = "../VST3 SDK/base/source/tcontainer.h"; sourceTree = "<group>"; };
+		473A252F19EA8BF2007A454E /* tdeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tdeque.h; path = "../VST3 SDK/base/source/tdeque.h"; sourceTree = "<group>"; };
+		473A253019EA8BF2007A454E /* tdictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tdictionary.h; path = "../VST3 SDK/base/source/tdictionary.h"; sourceTree = "<group>"; };
+		473A253119EA8BF2007A454E /* tdlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tdlist.h; path = "../VST3 SDK/base/source/tdlist.h"; sourceTree = "<group>"; };
+		473A253219EA8BF2007A454E /* thashset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thashset.h; path = "../VST3 SDK/base/source/thashset.h"; sourceTree = "<group>"; };
+		473A253319EA8BF2007A454E /* thashtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thashtable.h; path = "../VST3 SDK/base/source/thashtable.h"; sourceTree = "<group>"; };
+		473A253419EA8BF2007A454E /* tlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tlist.h; path = "../VST3 SDK/base/source/tlist.h"; sourceTree = "<group>"; };
+		473A253519EA8BF2007A454E /* tqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tqueue.h; path = "../VST3 SDK/base/source/tqueue.h"; sourceTree = "<group>"; };
+		473A253619EA8BF2007A454E /* tringbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tringbuffer.h; path = "../VST3 SDK/base/source/tringbuffer.h"; sourceTree = "<group>"; };
+		473A253719EA8BF2007A454E /* tstack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tstack.h; path = "../VST3 SDK/base/source/tstack.h"; sourceTree = "<group>"; };
+		473A253819EA8BF2007A454E /* tvector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tvector.h; path = "../VST3 SDK/base/source/tvector.h"; sourceTree = "<group>"; };
+		473A254419EA8C30007A454E /* falignpop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = falignpop.h; sourceTree = "<group>"; };
+		473A254519EA8C30007A454E /* falignpush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = falignpush.h; sourceTree = "<group>"; };
+		473A254619EA8C30007A454E /* fplatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fplatform.h; path = "/Users/henriaribert-desjardins/Documents/Heimat/VST3 SDK/pluginterfaces/base/fplatform.h"; sourceTree = "<absolute>"; };
+		473A254719EA8C30007A454E /* fstrdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fstrdefs.h; sourceTree = "<group>"; };
+		473A254819EA8C30007A454E /* futils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = futils.h; sourceTree = "<group>"; };
+		473A254919EA8C30007A454E /* ibstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ibstream.h; sourceTree = "<group>"; };
+		473A254A19EA8C30007A454E /* icloneable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = icloneable.h; sourceTree = "<group>"; };
+		473A254B19EA8C30007A454E /* ierrorcontext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ierrorcontext.h; sourceTree = "<group>"; };
+		473A254C19EA8C30007A454E /* ipersistent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipersistent.h; sourceTree = "<group>"; };
+		473A254D19EA8C30007A454E /* ipluginbase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ipluginbase.h; sourceTree = "<group>"; };
+		473A254E19EA8C30007A454E /* istringresult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = istringresult.h; sourceTree = "<group>"; };
+		473A254F19EA8C30007A454E /* iupdatehandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iupdatehandler.h; sourceTree = "<group>"; };
+		473A255019EA8C30007A454E /* keycodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keycodes.h; sourceTree = "<group>"; };
+		473AC17D19EC0D40005D589E /* HeyMateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeyMateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		473AC18619EC0D40005D589E /* HeyMateApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeyMateApp-Info.plist"; sourceTree = "<group>"; };
+		473AC18819EC0D40005D589E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		473AC18A19EC0D40005D589E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		473AC18C19EC0D40005D589E /* HeyMateApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HeyMateApp-Prefix.pch"; sourceTree = "<group>"; };
+		473AC18D19EC0D40005D589E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		473AC18E19EC0D40005D589E /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		473AC19119EC0D40005D589E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		473AC19319EC0D40005D589E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		473AC19419EC0D40005D589E /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		473AC19619EC0D40005D589E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4745129F19FE4C4D002D9138 /* HeyMateVST2.vst */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeyMateVST2.vst; sourceTree = BUILT_PRODUCTS_DIR; };
+		474512A019FE4C4E002D9138 /* HeyMateVST2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "HeyMateVST2-Info.plist"; path = "/Users/henriaribert-desjardins/Documents/Heimat/AudioPlug-In/HeyMate/HeyMate/SupportingFiles/HeyMateVST2-Info.plist"; sourceTree = "<absolute>"; };
+		47502C7219F7EA0700D46C58 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = bitmaps/background.png; sourceTree = "<group>"; };
+		4757000E19F1559A005C9729 /* notify_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notify_iOS.h; sourceTree = "<group>"; };
+		4757FFBE19F14CA6005C9729 /* vstpresetfile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vstpresetfile.cpp; path = ../vstpresetfile.cpp; sourceTree = "<group>"; };
+		4757FFBF19F14CA6005C9729 /* vstpresetfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vstpresetfile.h; path = ../vstpresetfile.h; sourceTree = "<group>"; };
+		4757FFC319F14D24005C9729 /* eventlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eventlist.cpp; sourceTree = "<group>"; };
+		4757FFC419F14D24005C9729 /* eventlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventlist.h; sourceTree = "<group>"; };
+		4757FFC519F14D24005C9729 /* hostclasses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = hostclasses.cpp; sourceTree = "<group>"; };
+		4757FFC619F14D24005C9729 /* hostclasses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hostclasses.h; sourceTree = "<group>"; };
+		4757FFC719F14D24005C9729 /* parameterchanges.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = parameterchanges.cpp; sourceTree = "<group>"; };
+		4757FFC819F14D24005C9729 /* parameterchanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parameterchanges.h; sourceTree = "<group>"; };
+		4757FFC919F14D24005C9729 /* processdata.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = processdata.cpp; sourceTree = "<group>"; };
+		4757FFCA19F14D24005C9729 /* processdata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = processdata.h; sourceTree = "<group>"; };
+		4757FFF419F14D7F005C9729 /* NSDataIBStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataIBStream.h; sourceTree = "<group>"; };
+		4757FFF519F14D7F005C9729 /* NSDataIBStream.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NSDataIBStream.mm; sourceTree = "<group>"; };
+		4758A03919D97F130044FB2E /* HeyMateIds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeyMateIds.h; sourceTree = "<group>"; };
+		4758A03D19D984020044FB2E /* factory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = factory.cpp; sourceTree = "<group>"; };
+		4758A04219D98ECD0044FB2E /* vstguieditor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vstguieditor.cpp; path = ../vstguieditor.cpp; sourceTree = "<group>"; };
+		4758A04319D98ECD0044FB2E /* vstguieditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vstguieditor.h; path = ../vstguieditor.h; sourceTree = "<group>"; };
+		4758A04519D9B5530044FB2E /* EffectProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EffectProcessor.cpp; path = Processing/Effects/EffectProcessor.cpp; sourceTree = "<group>"; };
+		4758A04619D9B5530044FB2E /* EffectProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EffectProcessor.h; path = Processing/Effects/EffectProcessor.h; sourceTree = "<group>"; };
+		4758BC6D19D84FC40044F0DD /* VoiceProcessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = VoiceProcessor.cpp; path = Processing/Voices/VoiceProcessor.cpp; sourceTree = "<group>"; };
+		4758BC6E19D84FC40044F0DD /* VoiceProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VoiceProcessor.h; path = Processing/Voices/VoiceProcessor.h; sourceTree = "<group>"; };
+		4758BC7319D864BE0044F0DD /* Voice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Voice.cpp; path = Processing/Voices/Voice.cpp; sourceTree = "<group>"; };
+		4758BC7419D864BE0044F0DD /* Voice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Voice.h; path = Processing/Voices/Voice.h; sourceTree = "<group>"; };
+		4759C9D71A431FF900728B5F /* heimat-icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = "heimat-icon.icns"; path = "../../GraphicResources/heimat-icon.icns"; sourceTree = "<group>"; };
+		477030501A07C99F0032B455 /* switchVertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = switchVertical.png; path = bitmaps/switchVertical.png; sourceTree = "<group>"; };
+		477030541A07CD5F0032B455 /* switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = switch.png; path = bitmaps/switch.png; sourceTree = "<group>"; };
+		4770D4A919F689F600579BF8 /* EffectBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EffectBase.cpp; path = Processing/Effects/EffectBase.cpp; sourceTree = "<group>"; };
+		4770D4AA19F689F600579BF8 /* EffectBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EffectBase.h; path = Processing/Effects/EffectBase.h; sourceTree = "<group>"; };
+		4770D4B419F6DC4A00579BF8 /* GraphicHelp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = GraphicHelp.mm; path = ../../Graphics/General/GraphicHelp.mm; sourceTree = "<group>"; };
+		4770D4B519F6DC4A00579BF8 /* GraphicHelp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphicHelp.h; path = ../../Graphics/General/GraphicHelp.h; sourceTree = "<group>"; };
+		4770D4BB19F6F34D00579BF8 /* GraphicComponentsList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GraphicComponentsList.cpp; path = ../../Graphics/General/GraphicComponentsList.cpp; sourceTree = "<group>"; };
+		4770D4BC19F6F34D00579BF8 /* GraphicComponentsList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphicComponentsList.h; path = ../../Graphics/General/GraphicComponentsList.h; sourceTree = "<group>"; };
+		4777E7C81A02CA9500D626E1 /* handle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = handle.png; path = bitmaps/handle.png; sourceTree = "<group>"; };
+		477DFCD119F08ED80075D2BB /* Editor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Editor.cpp; path = Editors/Editor.cpp; sourceTree = "<group>"; };
+		477DFCD219F08ED80075D2BB /* Editor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Editor.h; path = Editors/Editor.h; sourceTree = "<group>"; };
+		478049771A1F7024005B0AC8 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors.h; path = ../../Graphics/General/Colors.h; sourceTree = "<group>"; };
+		4786822819D1B04000BF7C41 /* HeyMate_VersionRuler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeyMate_VersionRuler.h; sourceTree = "<group>"; };
+		47ABEA521A053A710096EE24 /* TextLabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TextLabel.cpp; path = ../../Graphics/Elements/TextLabel.cpp; sourceTree = "<group>"; };
+		47ABEA531A053A710096EE24 /* TextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TextLabel.h; path = ../../Graphics/Elements/TextLabel.h; sourceTree = "<group>"; };
+		47AECC7B19CB1AA50066BE88 /* HeyMate.vst3 */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeyMate.vst3; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AECC7E19CB1AA50066BE88 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		47AECC8619CB1AA50066BE88 /* HeyMate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HeyMate-Info.plist"; sourceTree = "<group>"; };
+		47AECC8819CB1AA50066BE88 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		47AECC8E19CB1B250066BE88 /* PkgInfo */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PkgInfo; sourceTree = "<group>"; };
+		47AECC9019CB1ED50066BE88 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		47AECC9219CB1EDD0066BE88 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		47AECC9419CB1EE80066BE88 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		47AECC9619CB1EEE0066BE88 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		47AECC9F19CB269F0066BE88 /* baseiids.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = baseiids.cpp; path = "../VST3 SDK/base/source/baseiids.cpp"; sourceTree = "<group>"; };
+		47AECCA219CB269F0066BE88 /* fatomic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fatomic.cpp; path = "../VST3 SDK/base/source/fatomic.cpp"; sourceTree = "<group>"; };
+		47AECCA319CB269F0066BE88 /* fatomic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fatomic.h; path = "../VST3 SDK/base/source/fatomic.h"; sourceTree = "<group>"; };
+		47AECCA619CB269F0066BE88 /* fbuffer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fbuffer.cpp; path = "../VST3 SDK/base/source/fbuffer.cpp"; sourceTree = "<group>"; };
+		47AECCA719CB269F0066BE88 /* fbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fbuffer.h; path = "../VST3 SDK/base/source/fbuffer.h"; sourceTree = "<group>"; };
+		47AECCAF19CB269F0066BE88 /* fdebug.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fdebug.cpp; path = "../VST3 SDK/base/source/fdebug.cpp"; sourceTree = "<group>"; };
+		47AECCB019CB269F0066BE88 /* fdebug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fdebug.h; path = "../VST3 SDK/base/source/fdebug.h"; sourceTree = "<group>"; };
+		47AECCB819CB269F0066BE88 /* fobject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fobject.cpp; path = "../VST3 SDK/base/source/fobject.cpp"; sourceTree = "<group>"; };
+		47AECCB919CB269F0066BE88 /* fobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fobject.h; path = "../VST3 SDK/base/source/fobject.h"; sourceTree = "<group>"; };
+		47AECCC119CB269F0066BE88 /* fstreamer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fstreamer.cpp; path = "../VST3 SDK/base/source/fstreamer.cpp"; sourceTree = "<group>"; };
+		47AECCC219CB269F0066BE88 /* fstreamer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fstreamer.h; path = "../VST3 SDK/base/source/fstreamer.h"; sourceTree = "<group>"; };
+		47AECCC319CB269F0066BE88 /* fstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fstring.cpp; path = "../VST3 SDK/base/source/fstring.cpp"; sourceTree = "<group>"; };
+		47AECCC419CB269F0066BE88 /* fstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fstring.h; path = "../VST3 SDK/base/source/fstring.h"; sourceTree = "<group>"; };
+		47AECCC619CB269F0066BE88 /* fthread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = fthread.cpp; path = "../VST3 SDK/base/source/fthread.cpp"; sourceTree = "<group>"; };
+		47AECCC719CB269F0066BE88 /* fthread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = fthread.h; path = "../VST3 SDK/base/source/fthread.h"; sourceTree = "<group>"; };
+		47AECCD819CB269F0066BE88 /* timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = timer.cpp; path = "../VST3 SDK/base/source/timer.cpp"; sourceTree = "<group>"; };
+		47AECCD919CB269F0066BE88 /* timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timer.h; path = "../VST3 SDK/base/source/timer.h"; sourceTree = "<group>"; };
+		47AECCDF19CB269F0066BE88 /* updatehandler.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = updatehandler.cpp; path = "../VST3 SDK/base/source/updatehandler.cpp"; sourceTree = "<group>"; };
+		47AECCE019CB269F0066BE88 /* updatehandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = updatehandler.h; path = "../VST3 SDK/base/source/updatehandler.h"; sourceTree = "<group>"; };
+		47AECCF719CB27040066BE88 /* vstgui_mac.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = vstgui_mac.mm; path = "../VST3 SDK/vstgui4/vstgui/vstgui_mac.mm"; sourceTree = "<group>"; };
+		47AECCFD19CB283E0066BE88 /* conststringtable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conststringtable.h; sourceTree = "<group>"; };
+		47AECD0219CB283E0066BE88 /* ftypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftypes.h; sourceTree = "<group>"; };
+		47AECD0419CB283E0066BE88 /* funknown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = funknown.h; sourceTree = "<group>"; };
+		47AECD0E19CB283E0066BE88 /* ustring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ustring.cpp; sourceTree = "<group>"; };
+		47AECD0F19CB283E0066BE88 /* ustring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ustring.h; sourceTree = "<group>"; };
+		47AECD1119CB283E0066BE88 /* iplugview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iplugview.h; sourceTree = "<group>"; };
+		47AECD1519CB283E0066BE88 /* ivstattributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ivstattributes.h; sourceTree = "<group>"; };
+		47AECD1619CB283E0066BE88 /* ivstaudioprocessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ivstaudioprocessor.h; sourceTree = "<group>"; };
+		47AECD1719CB283E0066BE88 /* ivstcomponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ivstcomponent.h; sourceTree = "<group>"; };
+		47AECD1919CB283E0066BE88 /* ivsteditcontroller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ivsteditcontroller.h; sourceTree = "<group>"; };
+		47AECD1A19CB283E0066BE88 /* ivstevents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ivstevents.h; sourceTree = "<group>"; };
+		47AECD1B19CB283E0066BE88 /* ivsthostapplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ivsthostapplication.h; sourceTree = "<group>"; };
+		47AECD1C19CB283E0066BE88 /* ivstinterappaudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ivstinterappaudio.h; sourceTree = "<group>"; };
+		47AECD1D19CB283E0066BE88 /* ivstmessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ivstmessage.h; sourceTree = "<group>"; };
+		47AECD1E19CB283E0066BE88 /* ivstmidicontrollers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ivstmidicontrollers.h; sourceTree = "<group>"; };
+		47AECD1F19CB283E0066BE88 /* ivstnoteexpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ivstnoteexpression.h; sourceTree = "<group>"; };
+		47AECD2019CB283E0066BE88 /* ivstparameterchanges.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ivstparameterchanges.h; sourceTree = "<group>"; };
+		47AECD2219CB283E0066BE88 /* ivstprocesscontext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ivstprocesscontext.h; sourceTree = "<group>"; };
+		47AECD2419CB283E0066BE88 /* ivstunits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ivstunits.h; sourceTree = "<group>"; };
+		47AECD2519CB283E0066BE88 /* vstpresetkeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vstpresetkeys.h; sourceTree = "<group>"; };
+		47AECD2719CB283E0066BE88 /* vsttypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = vsttypes.h; path = "/Users/henriaribert-desjardins/Documents/Heimat/VST3 SDK/pluginterfaces/vst/vsttypes.h"; sourceTree = "<absolute>"; };
+		47AECEED19CB283F0066BE88 /* pluginview.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pluginview.cpp; sourceTree = "<group>"; };
+		47AECEEE19CB283F0066BE88 /* pluginview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pluginview.h; sourceTree = "<group>"; };
+		47AECEF219CB283F0066BE88 /* macmain.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = macmain.cpp; sourceTree = "<group>"; };
+		47AECEF319CB283F0066BE88 /* pluginfactoryvst3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pluginfactoryvst3.cpp; sourceTree = "<group>"; };
+		47AECEF419CB283F0066BE88 /* pluginfactoryvst3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pluginfactoryvst3.h; sourceTree = "<group>"; };
+		47AECF1F19CB28400066BE88 /* AudioIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioIO.h; sourceTree = "<group>"; };
+		47AECF2019CB28400066BE88 /* AudioIO.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AudioIO.mm; sourceTree = "<group>"; };
+		47AECF2119CB28400066BE88 /* HostApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostApp.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		47AECF2219CB28400066BE88 /* HostApp.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HostApp.mm; sourceTree = "<group>"; };
+		47AECF2319CB28400066BE88 /* MidiIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MidiIO.h; sourceTree = "<group>"; };
+		47AECF2419CB28400066BE88 /* MidiIO.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MidiIO.mm; sourceTree = "<group>"; };
+		47AECF2519CB28400066BE88 /* PresetBrowserView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresetBrowserView.xib; sourceTree = "<group>"; };
+		47AECF2619CB28400066BE88 /* PresetBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresetBrowserViewController.h; sourceTree = "<group>"; };
+		47AECF2719CB28400066BE88 /* PresetBrowserViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PresetBrowserViewController.mm; sourceTree = "<group>"; };
+		47AECF2819CB28400066BE88 /* PresetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresetManager.h; sourceTree = "<group>"; };
+		47AECF2919CB28400066BE88 /* PresetManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PresetManager.mm; sourceTree = "<group>"; };
+		47AECF2A19CB28400066BE88 /* PresetSaveView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PresetSaveView.xib; sourceTree = "<group>"; };
+		47AECF2B19CB28400066BE88 /* PresetSaveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresetSaveViewController.h; sourceTree = "<group>"; };
+		47AECF2C19CB28400066BE88 /* PresetSaveViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PresetSaveViewController.mm; sourceTree = "<group>"; };
+		47AECF2D19CB28400066BE88 /* SettingsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsView.xib; sourceTree = "<group>"; };
+		47AECF2E19CB28400066BE88 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		47AECF2F19CB28400066BE88 /* SettingsViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SettingsViewController.mm; sourceTree = "<group>"; };
+		47AECF3019CB28400066BE88 /* VST3Editor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VST3Editor.h; sourceTree = "<group>"; };
+		47AECF3119CB28400066BE88 /* VST3Editor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VST3Editor.mm; sourceTree = "<group>"; };
+		47AECF3219CB28400066BE88 /* VST3Plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VST3Plugin.h; sourceTree = "<group>"; };
+		47AECF3319CB28400066BE88 /* VST3Plugin.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VST3Plugin.mm; sourceTree = "<group>"; };
+		47AECF3419CB28400066BE88 /* VSTInterAppAudioAppDelegateBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VSTInterAppAudioAppDelegateBase.h; sourceTree = "<group>"; };
+		47AECF3519CB28400066BE88 /* VSTInterAppAudioAppDelegateBase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = VSTInterAppAudioAppDelegateBase.mm; sourceTree = "<group>"; };
+		47AECF3C19CB28400066BE88 /* vst2wrapper.sdk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vst2wrapper.sdk.cpp; sourceTree = "<group>"; };
+		47AECF5F19CB28400066BE88 /* vst3stdsdk.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vst3stdsdk.cpp; sourceTree = "<group>"; };
+		47B937F419CC657700B18B29 /* Processor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Processor.cpp; path = Components/Processor.cpp; sourceTree = "<group>"; };
+		47B937F519CC657700B18B29 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Processor.h; path = Components/Processor.h; sourceTree = "<group>"; };
+		47B937F919CC6D6D00B18B29 /* Controller.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Controller.cpp; path = Components/Controller.cpp; sourceTree = "<group>"; };
+		47B937FA19CC6D6D00B18B29 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Controller.h; path = Components/Controller.h; sourceTree = "<group>"; };
+		47BAC4D81A07F2930037470A /* SwitchHorizontal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SwitchHorizontal.cpp; path = ../../Graphics/Elements/SwitchHorizontal.cpp; sourceTree = "<group>"; };
+		47BAC4D91A07F2930037470A /* SwitchHorizontal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SwitchHorizontal.h; path = ../../Graphics/Elements/SwitchHorizontal.h; sourceTree = "<group>"; };
+		47C888AC1A09204A00A3867B /* AddEffectButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AddEffectButton.cpp; path = ../../Graphics/Elements/AddEffectButton.cpp; sourceTree = "<group>"; };
+		47C888AD1A09204A00A3867B /* AddEffectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddEffectButton.h; path = ../../Graphics/Elements/AddEffectButton.h; sourceTree = "<group>"; };
+		47C8D27F19E59EFE008DA86D /* Knob.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Knob.cpp; path = ../../Graphics/Elements/Knob.cpp; sourceTree = "<group>"; };
+		47C8D28019E59EFE008DA86D /* Knob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Knob.h; path = ../../Graphics/Elements/Knob.h; sourceTree = "<group>"; };
+		47D3C6DE1A02992F00CAA8BE /* Slider.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Slider.cpp; path = ../../Graphics/Elements/Slider.cpp; sourceTree = "<group>"; };
+		47D3C6DF1A02992F00CAA8BE /* Slider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Slider.h; path = ../../Graphics/Elements/Slider.h; sourceTree = "<group>"; };
+		47D9BBD519F8EDF70057E5A8 /* knobbackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = knobbackground.png; path = bitmaps/knobbackground.png; sourceTree = "<group>"; };
+		47E1A70E19FF94F10044D936 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		47E1A71019FF94FD0044D936 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		47E1A71219FF95180044D936 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		47E1A71419FF95260044D936 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		47E1A71519FF95260044D936 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/GLKit.framework; sourceTree = DEVELOPER_DIR; };
+		47E1A71819FF95340044D936 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/CoreAudio.framework; sourceTree = DEVELOPER_DIR; };
+		47E1A71919FF95340044D936 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		47E1A71A19FF95340044D936 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/CoreMIDI.framework; sourceTree = DEVELOPER_DIR; };
+		47E1A71E19FF95400044D936 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		47E1A72019FF95510044D936 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		47E1A72119FF95510044D936 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		47E1A72219FF95510044D936 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		47E1A72619FF955E0044D936 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.1.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		47F25D5619DB3C7200EFDBD8 /* Delay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Delay.cpp; path = Processing/Effects/Delay.cpp; sourceTree = "<group>"; };
+		47F25D5719DB3C7200EFDBD8 /* Delay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Delay.h; path = Processing/Effects/Delay.h; sourceTree = "<group>"; };
+		47F494F019D01C1400965566 /* ParametersDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ParametersDescription.cpp; path = ../Processing/ParametersDescription.cpp; sourceTree = "<group>"; };
+		47F494F119D01C1500965566 /* ParametersDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParametersDescription.h; path = ../Processing/ParametersDescription.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		473AC17A19EC0D40005D589E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474203C419FF9B91005EB8F4 /* CoreText.framework in Frameworks */,
+				474203C319FF9B7C005EB8F4 /* CoreGraphics.framework in Frameworks */,
+				474203C219FF9B60005EB8F4 /* QuartzCore.framework in Frameworks */,
+				47E1A72819FF98B40044D936 /* AudioToolbox.framework in Frameworks */,
+				47E1A70F19FF94F10044D936 /* UIKit.framework in Frameworks */,
+				47E1A72319FF95510044D936 /* Accelerate.framework in Frameworks */,
+				47E1A72519FF95510044D936 /* AVFoundation.framework in Frameworks */,
+				47E1A71D19FF95340044D936 /* CoreMIDI.framework in Frameworks */,
+				47E1A71719FF95260044D936 /* GLKit.framework in Frameworks */,
+				47E1A71319FF95180044D936 /* ImageIO.framework in Frameworks */,
+				47E1A71119FF94FD0044D936 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4745129019FE4C4D002D9138 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4745129119FE4C4D002D9138 /* OpenGL.framework in Frameworks */,
+				4745129219FE4C4D002D9138 /* QuartzCore.framework in Frameworks */,
+				4745129319FE4C4D002D9138 /* Accelerate.framework in Frameworks */,
+				4745129419FE4C4D002D9138 /* Carbon.framework in Frameworks */,
+				4745129519FE4C4D002D9138 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AECC7819CB1AA50066BE88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AECC9719CB1EEE0066BE88 /* OpenGL.framework in Frameworks */,
+				47919C1E19FE8F5A00A03A52 /* QuartzCore.framework in Frameworks */,
+				47AECC9119CB1ED50066BE88 /* Carbon.framework in Frameworks */,
+				47AECC7F19CB1AA50066BE88 /* Cocoa.framework in Frameworks */,
+				47AECC9319CB1EDD0066BE88 /* Accelerate.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47201CF419EBF77A004E47A7 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				478049771A1F7024005B0AC8 /* Colors.h */,
+				4770D4B419F6DC4A00579BF8 /* GraphicHelp.mm */,
+				4770D4B519F6DC4A00579BF8 /* GraphicHelp.h */,
+				4770D4BB19F6F34D00579BF8 /* GraphicComponentsList.cpp */,
+				4770D4BC19F6F34D00579BF8 /* GraphicComponentsList.h */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		473A24F519EA8786007A454E /* frameworks for iOS */ = {
+			isa = PBXGroup;
+			children = (
+				47E1A72619FF955E0044D936 /* QuartzCore.framework */,
+				47E1A72019FF95510044D936 /* Accelerate.framework */,
+				47E1A72119FF95510044D936 /* AudioToolbox.framework */,
+				47E1A72219FF95510044D936 /* AVFoundation.framework */,
+				47E1A71E19FF95400044D936 /* CoreText.framework */,
+				47E1A71819FF95340044D936 /* CoreAudio.framework */,
+				47E1A71919FF95340044D936 /* CoreGraphics.framework */,
+				47E1A71A19FF95340044D936 /* CoreMIDI.framework */,
+				47E1A71419FF95260044D936 /* Foundation.framework */,
+				47E1A71519FF95260044D936 /* GLKit.framework */,
+				47E1A71219FF95180044D936 /* ImageIO.framework */,
+				47E1A71019FF94FD0044D936 /* MobileCoreServices.framework */,
+				47E1A70E19FF94F10044D936 /* UIKit.framework */,
+			);
+			name = "frameworks for iOS";
+			sourceTree = "<group>";
+		};
+		473AC18419EC0D40005D589E /* HeyMateApp */ = {
+			isa = PBXGroup;
+			children = (
+				473AC18D19EC0D40005D589E /* AppDelegate.h */,
+				473AC18E19EC0D40005D589E /* AppDelegate.mm */,
+				473AC19019EC0D40005D589E /* Main.storyboard */,
+				473AC19319EC0D40005D589E /* ViewController.h */,
+				473AC19419EC0D40005D589E /* ViewController.mm */,
+				473AC19619EC0D40005D589E /* Images.xcassets */,
+			);
+			name = HeyMateApp;
+			path = HeyMate/HeyMateApp;
+			sourceTree = SOURCE_ROOT;
+		};
+		473AC18519EC0D40005D589E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				4757000E19F1559A005C9729 /* notify_iOS.h */,
+				473AC18619EC0D40005D589E /* HeyMateApp-Info.plist */,
+				473AC18719EC0D40005D589E /* InfoPlist.strings */,
+				473AC18A19EC0D40005D589E /* main.m */,
+				473AC18C19EC0D40005D589E /* HeyMateApp-Prefix.pch */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		4757FFC219F14D24005C9729 /* hosting */ = {
+			isa = PBXGroup;
+			children = (
+				4757FFC319F14D24005C9729 /* eventlist.cpp */,
+				4757FFC419F14D24005C9729 /* eventlist.h */,
+				4757FFC519F14D24005C9729 /* hostclasses.cpp */,
+				4757FFC619F14D24005C9729 /* hostclasses.h */,
+				4757FFC719F14D24005C9729 /* parameterchanges.cpp */,
+				4757FFC819F14D24005C9729 /* parameterchanges.h */,
+				4757FFC919F14D24005C9729 /* processdata.cpp */,
+				4757FFCA19F14D24005C9729 /* processdata.h */,
+			);
+			path = hosting;
+			sourceTree = "<group>";
+		};
+		4757FFD319F14D7E005C9729 /* auwrapper */ = {
+			isa = PBXGroup;
+			children = (
+				4757FFF419F14D7F005C9729 /* NSDataIBStream.h */,
+				4757FFF519F14D7F005C9729 /* NSDataIBStream.mm */,
+			);
+			path = auwrapper;
+			sourceTree = "<group>";
+		};
+		4784652719EEE417008127CF /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4757FFBE19F14CA6005C9729 /* vstpresetfile.cpp */,
+				4757FFBF19F14CA6005C9729 /* vstpresetfile.h */,
+				473811D019D961890091FE7D /* vstaudioeffect.cpp */,
+				473811D119D961890091FE7D /* vstaudioeffect.h */,
+				473811D219D961890091FE7D /* vstbus.cpp */,
+				473811D319D961890091FE7D /* vstbus.h */,
+				473811D419D961890091FE7D /* vstcomponent.cpp */,
+				473811D519D961890091FE7D /* vstcomponent.h */,
+				473811D619D961890091FE7D /* vstcomponentbase.cpp */,
+				4758A04219D98ECD0044FB2E /* vstguieditor.cpp */,
+				4758A04319D98ECD0044FB2E /* vstguieditor.h */,
+				473811D719D961890091FE7D /* vstcomponentbase.h */,
+				473811D819D961890091FE7D /* vsteditcontroller.cpp */,
+				473811D919D961890091FE7D /* vsteditcontroller.h */,
+				473811DC19D961890091FE7D /* vstinitiids.cpp */,
+				473811DF19D961890091FE7D /* vstparameters.cpp */,
+				473811E019D961890091FE7D /* vstparameters.h */,
+			);
+			name = Helpers;
+			path = vst2wrapper;
+			sourceTree = "<group>";
+		};
+		47AECC7019CB1A210066BE88 = {
+			isa = PBXGroup;
+			children = (
+				47AECC9919CB1F6C0066BE88 /* SDK VST */,
+				47AECC8519CB1AA50066BE88 /* Supporting Files */,
+				47AECC8419CB1AA50066BE88 /* HeyMate */,
+				47AED0A219CB28600066BE88 /* Resources */,
+				47AECC7D19CB1AA50066BE88 /* Frameworks */,
+				47AECC7C19CB1AA50066BE88 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47AECC7C19CB1AA50066BE88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47AECC7B19CB1AA50066BE88 /* HeyMate.vst3 */,
+				473AC17D19EC0D40005D589E /* HeyMateApp.app */,
+				4745129F19FE4C4D002D9138 /* HeyMateVST2.vst */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47AECC7D19CB1AA50066BE88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				473A24F519EA8786007A454E /* frameworks for iOS */,
+				47AECC9819CB1EF50066BE88 /* frameworks for VST */,
+				47AECC7E19CB1AA50066BE88 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47AECC8419CB1AA50066BE88 /* HeyMate */ = {
+			isa = PBXGroup;
+			children = (
+				473AC18419EC0D40005D589E /* HeyMateApp */,
+				47B9380619CC7B9300B18B29 /* Parameters */,
+				47C8D27419E58A6F008DA86D /* GUI */,
+				47B77DAE19CC0A5D00005512 /* editor */,
+				47B77DAD19CC0A5100005512 /* effect */,
+			);
+			path = HeyMate;
+			sourceTree = "<group>";
+		};
+		47AECC8519CB1AA50066BE88 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				473AC18519EC0D40005D589E /* iOS */,
+				47AECC8E19CB1B250066BE88 /* PkgInfo */,
+				47AECC8619CB1AA50066BE88 /* HeyMate-Info.plist */,
+				474512A019FE4C4E002D9138 /* HeyMateVST2-Info.plist */,
+				47AECC8719CB1AA50066BE88 /* InfoPlist.strings */,
+				4786822819D1B04000BF7C41 /* HeyMate_VersionRuler.h */,
+				4758A03919D97F130044FB2E /* HeyMateIds.h */,
+				4758A03D19D984020044FB2E /* factory.cpp */,
+				470EBF5019FA99CB00C9A018 /* HeyMate_vst2wrapper.cpp */,
+			);
+			name = "Supporting Files";
+			path = HeyMate/SupportingFiles;
+			sourceTree = "<group>";
+		};
+		47AECC9819CB1EF50066BE88 /* frameworks for VST */ = {
+			isa = PBXGroup;
+			children = (
+				47AECC9619CB1EEE0066BE88 /* OpenGL.framework */,
+				47AECC9419CB1EE80066BE88 /* QuartzCore.framework */,
+				47AECC9219CB1EDD0066BE88 /* Accelerate.framework */,
+				47AECC9019CB1ED50066BE88 /* Carbon.framework */,
+			);
+			name = "frameworks for VST";
+			sourceTree = "<group>";
+		};
+		47AECC9919CB1F6C0066BE88 /* SDK VST */ = {
+			isa = PBXGroup;
+			children = (
+				47AECCFA19CB283D0066BE88 /* pluginterfaces */,
+				47AECD2C19CB283E0066BE88 /* public.sdk */,
+				47AECCF619CB26B70066BE88 /* vstgui */,
+				47AECC9D19CB26780066BE88 /* base */,
+			);
+			name = "SDK VST";
+			sourceTree = "<group>";
+		};
+		47AECC9D19CB26780066BE88 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				47AECC9E19CB26880066BE88 /* source */,
+			);
+			name = base;
+			sourceTree = "<group>";
+		};
+		47AECC9E19CB26880066BE88 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				47AECC9F19CB269F0066BE88 /* baseiids.cpp */,
+				473A250A19EA8BF2007A454E /* classfactory.cpp */,
+				473A250B19EA8BF2007A454E /* classfactory.h */,
+				47AECCA219CB269F0066BE88 /* fatomic.cpp */,
+				47AECCA319CB269F0066BE88 /* fatomic.h */,
+				473A250C19EA8BF2007A454E /* fbitset.cpp */,
+				473A250D19EA8BF2007A454E /* fbitset.h */,
+				47AECCA619CB269F0066BE88 /* fbuffer.cpp */,
+				47AECCA719CB269F0066BE88 /* fbuffer.h */,
+				473A250E19EA8BF2007A454E /* fcleanup.h */,
+				473A250F19EA8BF2007A454E /* fcommandline.h */,
+				473A251019EA8BF2007A454E /* fcontainer.h */,
+				473A251119EA8BF2007A454E /* fcpu.cpp */,
+				473A251219EA8BF2007A454E /* fcpu.h */,
+				473A251319EA8BF2007A454E /* fcriticalperformance.cpp */,
+				473A251419EA8BF2007A454E /* fcriticalperformance.h */,
+				47AECCAF19CB269F0066BE88 /* fdebug.cpp */,
+				47AECCB019CB269F0066BE88 /* fdebug.h */,
+				473A251519EA8BF2007A454E /* fdynlib.cpp */,
+				473A251619EA8BF2007A454E /* fdynlib.h */,
+				473A251719EA8BF2007A454E /* fgeoconstants.h */,
+				473A251819EA8BF2007A454E /* finitializer.cpp */,
+				473A251919EA8BF2007A454E /* finitializer.h */,
+				473A251A19EA8BF2007A454E /* fmemory.cpp */,
+				473A251B19EA8BF2007A454E /* fmemory.h */,
+				47AECCB819CB269F0066BE88 /* fobject.cpp */,
+				47AECCB919CB269F0066BE88 /* fobject.h */,
+				473A251C19EA8BF2007A454E /* fpoint.cpp */,
+				473A251D19EA8BF2007A454E /* fpoint.h */,
+				473A251E19EA8BF2007A454E /* frect.cpp */,
+				473A251F19EA8BF2007A454E /* frect.h */,
+				473A252019EA8BF2007A454E /* fregion.cpp */,
+				473A252119EA8BF2007A454E /* fregion.h */,
+				473A252219EA8BF2007A454E /* fstdmethods.h */,
+				47AECCC119CB269F0066BE88 /* fstreamer.cpp */,
+				47AECCC219CB269F0066BE88 /* fstreamer.h */,
+				47AECCC319CB269F0066BE88 /* fstring.cpp */,
+				47AECCC419CB269F0066BE88 /* fstring.h */,
+				473A252319EA8BF2007A454E /* fstringmethods.h */,
+				47AECCC619CB269F0066BE88 /* fthread.cpp */,
+				47AECCC719CB269F0066BE88 /* fthread.h */,
+				473A252419EA8BF2007A454E /* hexbinary.h */,
+				473A252519EA8BF2007A454E /* istreamwrapper.cpp */,
+				473A252619EA8BF2007A454E /* istreamwrapper.h */,
+				473A252719EA8BF2007A454E /* tarray.h */,
+				473A252819EA8BF2007A454E /* tassociation.h */,
+				473A252919EA8BF2007A454E /* tbag.h */,
+				473A252A19EA8BF2007A454E /* tbinarytree.h */,
+				473A252B19EA8BF2007A454E /* tbtree.h */,
+				473A252C19EA8BF2007A454E /* tbtreedictionary.h */,
+				473A252D19EA8BF2007A454E /* tbtreeset.h */,
+				473A252E19EA8BF2007A454E /* tcontainer.h */,
+				473A252F19EA8BF2007A454E /* tdeque.h */,
+				473A253019EA8BF2007A454E /* tdictionary.h */,
+				473A253119EA8BF2007A454E /* tdlist.h */,
+				473A253219EA8BF2007A454E /* thashset.h */,
+				473A253319EA8BF2007A454E /* thashtable.h */,
+				47AECCD819CB269F0066BE88 /* timer.cpp */,
+				47AECCD919CB269F0066BE88 /* timer.h */,
+				473A253419EA8BF2007A454E /* tlist.h */,
+				473A253519EA8BF2007A454E /* tqueue.h */,
+				473A253619EA8BF2007A454E /* tringbuffer.h */,
+				473A253719EA8BF2007A454E /* tstack.h */,
+				473A253819EA8BF2007A454E /* tvector.h */,
+				47AECCDF19CB269F0066BE88 /* updatehandler.cpp */,
+				47AECCE019CB269F0066BE88 /* updatehandler.h */,
+			);
+			name = source;
+			sourceTree = "<group>";
+		};
+		47AECCF619CB26B70066BE88 /* vstgui */ = {
+			isa = PBXGroup;
+			children = (
+				470B341B19FE8CE400C68AF0 /* vstgui.h */,
+				471CF9CB19E846CE00D9020A /* vstgui_ios.mm */,
+				47AECCF719CB27040066BE88 /* vstgui_mac.mm */,
+			);
+			name = vstgui;
+			sourceTree = "<group>";
+		};
+		47AECCFA19CB283D0066BE88 /* pluginterfaces */ = {
+			isa = PBXGroup;
+			children = (
+				47AECCFB19CB283E0066BE88 /* base */,
+				47AECD1019CB283E0066BE88 /* gui */,
+				47AECD1419CB283E0066BE88 /* vst */,
+			);
+			name = pluginterfaces;
+			path = "../VST3 SDK/pluginterfaces";
+			sourceTree = "<group>";
+		};
+		47AECCFB19CB283E0066BE88 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				473A254419EA8C30007A454E /* falignpop.h */,
+				473A254519EA8C30007A454E /* falignpush.h */,
+				473A254619EA8C30007A454E /* fplatform.h */,
+				473A254719EA8C30007A454E /* fstrdefs.h */,
+				473A254819EA8C30007A454E /* futils.h */,
+				473A254919EA8C30007A454E /* ibstream.h */,
+				473A254A19EA8C30007A454E /* icloneable.h */,
+				473A254B19EA8C30007A454E /* ierrorcontext.h */,
+				473A254C19EA8C30007A454E /* ipersistent.h */,
+				473A254D19EA8C30007A454E /* ipluginbase.h */,
+				473A254E19EA8C30007A454E /* istringresult.h */,
+				473A254F19EA8C30007A454E /* iupdatehandler.h */,
+				473A255019EA8C30007A454E /* keycodes.h */,
+				473811F519D965E70091FE7D /* conststringtable.cpp */,
+				47AECCFD19CB283E0066BE88 /* conststringtable.h */,
+				47AECD0219CB283E0066BE88 /* ftypes.h */,
+				473811F919D965E70091FE7D /* funknown.cpp */,
+				47AECD0419CB283E0066BE88 /* funknown.h */,
+				47AECD0E19CB283E0066BE88 /* ustring.cpp */,
+				47AECD0F19CB283E0066BE88 /* ustring.h */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		47AECD1019CB283E0066BE88 /* gui */ = {
+			isa = PBXGroup;
+			children = (
+				47AECD1119CB283E0066BE88 /* iplugview.h */,
+			);
+			path = gui;
+			sourceTree = "<group>";
+		};
+		47AECD1419CB283E0066BE88 /* vst */ = {
+			isa = PBXGroup;
+			children = (
+				47AECD1519CB283E0066BE88 /* ivstattributes.h */,
+				47AECD1619CB283E0066BE88 /* ivstaudioprocessor.h */,
+				47AECD1719CB283E0066BE88 /* ivstcomponent.h */,
+				47AECD1919CB283E0066BE88 /* ivsteditcontroller.h */,
+				47AECD1A19CB283E0066BE88 /* ivstevents.h */,
+				47AECD1B19CB283E0066BE88 /* ivsthostapplication.h */,
+				47AECD1C19CB283E0066BE88 /* ivstinterappaudio.h */,
+				47AECD1D19CB283E0066BE88 /* ivstmessage.h */,
+				47AECD1E19CB283E0066BE88 /* ivstmidicontrollers.h */,
+				47AECD1F19CB283E0066BE88 /* ivstnoteexpression.h */,
+				47AECD2019CB283E0066BE88 /* ivstparameterchanges.h */,
+				47AECD2219CB283E0066BE88 /* ivstprocesscontext.h */,
+				47AECD2419CB283E0066BE88 /* ivstunits.h */,
+				47AECD2519CB283E0066BE88 /* vstpresetkeys.h */,
+				47AECD2719CB283E0066BE88 /* vsttypes.h */,
+			);
+			path = vst;
+			sourceTree = "<group>";
+		};
+		47AECD2C19CB283E0066BE88 /* public.sdk */ = {
+			isa = PBXGroup;
+			children = (
+				47AECEE919CB283F0066BE88 /* source */,
+			);
+			name = public.sdk;
+			path = "../VST3 SDK/public.sdk";
+			sourceTree = "<group>";
+		};
+		47AECEE919CB283F0066BE88 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				47AECEEA19CB283F0066BE88 /* common */,
+				47AECEEF19CB283F0066BE88 /* main */,
+				47AECEF519CB283F0066BE88 /* vst */,
+				47AECF5F19CB28400066BE88 /* vst3stdsdk.cpp */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+		47AECEEA19CB283F0066BE88 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				47AECEED19CB283F0066BE88 /* pluginview.cpp */,
+				47AECEEE19CB283F0066BE88 /* pluginview.h */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		47AECEEF19CB283F0066BE88 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				47AECEF219CB283F0066BE88 /* macmain.cpp */,
+				47AECEF319CB283F0066BE88 /* pluginfactoryvst3.cpp */,
+				47AECEF419CB283F0066BE88 /* pluginfactoryvst3.h */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		47AECEF519CB283F0066BE88 /* vst */ = {
+			isa = PBXGroup;
+			children = (
+				4757FFD319F14D7E005C9729 /* auwrapper */,
+				4757FFC219F14D24005C9729 /* hosting */,
+				47AECF1E19CB28400066BE88 /* interappaudio */,
+				47AECF3919CB28400066BE88 /* vst2wrapper */,
+				4784652719EEE417008127CF /* Helpers */,
+			);
+			path = vst;
+			sourceTree = "<group>";
+		};
+		47AECF1E19CB28400066BE88 /* interappaudio */ = {
+			isa = PBXGroup;
+			children = (
+				47AECF1F19CB28400066BE88 /* AudioIO.h */,
+				47AECF2019CB28400066BE88 /* AudioIO.mm */,
+				47AECF2119CB28400066BE88 /* HostApp.h */,
+				47AECF2219CB28400066BE88 /* HostApp.mm */,
+				47AECF2319CB28400066BE88 /* MidiIO.h */,
+				47AECF2419CB28400066BE88 /* MidiIO.mm */,
+				47AECF2519CB28400066BE88 /* PresetBrowserView.xib */,
+				47AECF2619CB28400066BE88 /* PresetBrowserViewController.h */,
+				47AECF2719CB28400066BE88 /* PresetBrowserViewController.mm */,
+				47AECF2819CB28400066BE88 /* PresetManager.h */,
+				47AECF2919CB28400066BE88 /* PresetManager.mm */,
+				47AECF2A19CB28400066BE88 /* PresetSaveView.xib */,
+				47AECF2B19CB28400066BE88 /* PresetSaveViewController.h */,
+				47AECF2C19CB28400066BE88 /* PresetSaveViewController.mm */,
+				47AECF2D19CB28400066BE88 /* SettingsView.xib */,
+				47AECF2E19CB28400066BE88 /* SettingsViewController.h */,
+				47AECF2F19CB28400066BE88 /* SettingsViewController.mm */,
+				47AECF3019CB28400066BE88 /* VST3Editor.h */,
+				47AECF3119CB28400066BE88 /* VST3Editor.mm */,
+				47AECF3219CB28400066BE88 /* VST3Plugin.h */,
+				47AECF3319CB28400066BE88 /* VST3Plugin.mm */,
+				47AECF3419CB28400066BE88 /* VSTInterAppAudioAppDelegateBase.h */,
+				47AECF3519CB28400066BE88 /* VSTInterAppAudioAppDelegateBase.mm */,
+			);
+			path = interappaudio;
+			sourceTree = "<group>";
+		};
+		47AECF3919CB28400066BE88 /* vst2wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				47AECF3C19CB28400066BE88 /* vst2wrapper.sdk.cpp */,
+			);
+			path = vst2wrapper;
+			sourceTree = "<group>";
+		};
+		47AED0A219CB28600066BE88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4759C9D71A431FF900728B5F /* heimat-icon.icns */,
+				47096C8F1A2CA7F000A9197E /* background_iOS.png */,
+				47502C7219F7EA0700D46C58 /* background.png */,
+				477030541A07CD5F0032B455 /* switch.png */,
+				477030501A07C99F0032B455 /* switchVertical.png */,
+				4715BF141A067D12003A4F6F /* icon.png */,
+				4777E7C81A02CA9500D626E1 /* handle.png */,
+				47D9BBD519F8EDF70057E5A8 /* knobbackground.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		47B77DAD19CC0A5100005512 /* effect */ = {
+			isa = PBXGroup;
+			children = (
+				47B937F419CC657700B18B29 /* Processor.cpp */,
+				47B937F519CC657700B18B29 /* Processor.h */,
+				4758BC6D19D84FC40044F0DD /* VoiceProcessor.cpp */,
+				4758BC6E19D84FC40044F0DD /* VoiceProcessor.h */,
+				4758BC7319D864BE0044F0DD /* Voice.cpp */,
+				4758BC7419D864BE0044F0DD /* Voice.h */,
+				4758A04519D9B5530044FB2E /* EffectProcessor.cpp */,
+				4758A04619D9B5530044FB2E /* EffectProcessor.h */,
+				47F25D5619DB3C7200EFDBD8 /* Delay.cpp */,
+				47F25D5719DB3C7200EFDBD8 /* Delay.h */,
+				4770D4A919F689F600579BF8 /* EffectBase.cpp */,
+				4770D4AA19F689F600579BF8 /* EffectBase.h */,
+			);
+			name = effect;
+			sourceTree = "<group>";
+		};
+		47B77DAE19CC0A5D00005512 /* editor */ = {
+			isa = PBXGroup;
+			children = (
+				47B937F919CC6D6D00B18B29 /* Controller.cpp */,
+				47B937FA19CC6D6D00B18B29 /* Controller.h */,
+				477DFCD119F08ED80075D2BB /* Editor.cpp */,
+				477DFCD219F08ED80075D2BB /* Editor.h */,
+			);
+			name = editor;
+			sourceTree = "<group>";
+		};
+		47B9380619CC7B9300B18B29 /* Parameters */ = {
+			isa = PBXGroup;
+			children = (
+				47F494F019D01C1400965566 /* ParametersDescription.cpp */,
+				47F494F119D01C1500965566 /* ParametersDescription.h */,
+			);
+			name = Parameters;
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		47C8D27419E58A6F008DA86D /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				47201CF419EBF77A004E47A7 /* General */,
+				47C8D27E19E59E61008DA86D /* Elements */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		47C8D27E19E59E61008DA86D /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				47C8D27F19E59EFE008DA86D /* Knob.cpp */,
+				47C8D28019E59EFE008DA86D /* Knob.h */,
+				47D3C6DE1A02992F00CAA8BE /* Slider.cpp */,
+				47D3C6DF1A02992F00CAA8BE /* Slider.h */,
+				47ABEA521A053A710096EE24 /* TextLabel.cpp */,
+				47ABEA531A053A710096EE24 /* TextLabel.h */,
+				4715BF0F1A066D64003A4F6F /* OnOffButton.cpp */,
+				4715BF101A066D64003A4F6F /* OnOffButton.h */,
+				4715BF181A0696CC003A4F6F /* KickButton.cpp */,
+				4715BF191A0696CC003A4F6F /* KickButton.h */,
+				4715BF1D1A06ACB2003A4F6F /* SwitchVertical.cpp */,
+				4715BF1E1A06ACB2003A4F6F /* SwitchVertical.h */,
+				47BAC4D81A07F2930037470A /* SwitchHorizontal.cpp */,
+				47BAC4D91A07F2930037470A /* SwitchHorizontal.h */,
+				47C888AC1A09204A00A3867B /* AddEffectButton.cpp */,
+				47C888AD1A09204A00A3867B /* AddEffectButton.h */,
+				4739CDC51A139DAD00A328DB /* Keyboard.cpp */,
+				4739CDC61A139DAD00A328DB /* Keyboard.h */,
+				4739CDCA1A139DDB00A328DB /* Keystroke.cpp */,
+				4739CDCB1A139DDB00A328DB /* Keystroke.h */,
+			);
+			name = Elements;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		473AC17C19EC0D40005D589E /* HeyMateApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 473AC1AF19EC0D41005D589E /* Build configuration list for PBXNativeTarget "HeyMateApp" */;
+			buildPhases = (
+				473AC17919EC0D40005D589E /* Sources */,
+				473AC17A19EC0D40005D589E /* Frameworks */,
+				473AC17B19EC0D40005D589E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeyMateApp;
+			productName = HeyMateApp;
+			productReference = 473AC17D19EC0D40005D589E /* HeyMateApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4745126519FE4C4D002D9138 /* HeyMateVST2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4745129C19FE4C4D002D9138 /* Build configuration list for PBXNativeTarget "HeyMateVST2" */;
+			buildPhases = (
+				4745126619FE4C4D002D9138 /* Sources */,
+				4745129019FE4C4D002D9138 /* Frameworks */,
+				4745129619FE4C4D002D9138 /* Resources */,
+				4745129B19FE4C4D002D9138 /* Copy In Plug-Ins Library */,
+				474203F119FFD781005EB8F4 /* Make Symbolic Link */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeyMateVST2;
+			productName = HeyMate;
+			productReference = 4745129F19FE4C4D002D9138 /* HeyMateVST2.vst */;
+			productType = "com.apple.product-type.bundle";
+		};
+		47AECC7A19CB1AA50066BE88 /* HeyMate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47AECC8B19CB1AA50066BE88 /* Build configuration list for PBXNativeTarget "HeyMate" */;
+			buildPhases = (
+				47AECC7719CB1AA50066BE88 /* Sources */,
+				47AECC7819CB1AA50066BE88 /* Frameworks */,
+				47AECC7919CB1AA50066BE88 /* Resources */,
+				474203F019FFD5CB005EB8F4 /* Make Symbolic Link */,
+				47ADD14019FACF4C000C1121 /* Copy In Plug-Ins Library */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeyMate;
+			productName = HeyMate;
+			productReference = 47AECC7B19CB1AA50066BE88 /* HeyMate.vst3 */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47AECC7119CB1A210066BE88 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					473AC17C19EC0D40005D589E = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 47AECC7419CB1A210066BE88 /* Build configuration list for PBXProject "HeyMate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47AECC7019CB1A210066BE88;
+			productRefGroup = 47AECC7C19CB1AA50066BE88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47AECC7A19CB1AA50066BE88 /* HeyMate */,
+				4745126519FE4C4D002D9138 /* HeyMateVST2 */,
+				473AC17C19EC0D40005D589E /* HeyMateApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		473AC17B19EC0D40005D589E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47096C921A2CA7F000A9197E /* background_iOS.png in Resources */,
+				477DFCBE19F028F40075D2BB /* PresetBrowserView.xib in Resources */,
+				473AC19719EC0D40005D589E /* Images.xcassets in Resources */,
+				47502C7419F7EA2700D46C58 /* background.png in Resources */,
+				477030571A07CD5F0032B455 /* switch.png in Resources */,
+				473AC18919EC0D40005D589E /* InfoPlist.strings in Resources */,
+				477DFCC319F028F40075D2BB /* SettingsView.xib in Resources */,
+				473AC19219EC0D40005D589E /* Main.storyboard in Resources */,
+				4715BF171A067D12003A4F6F /* icon.png in Resources */,
+				4777E7CB1A02CB4A00D626E1 /* handle.png in Resources */,
+				477030531A07C99F0032B455 /* switchVertical.png in Resources */,
+				477DFCC119F028F40075D2BB /* PresetSaveView.xib in Resources */,
+				47D9BBD719F8EDFC0057E5A8 /* knobbackground.png in Resources */,
+				4759C9DA1A431FF900728B5F /* heimat-icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4745129619FE4C4D002D9138 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4745129819FE4C4D002D9138 /* background.png in Resources */,
+				47096C911A2CA7F000A9197E /* background_iOS.png in Resources */,
+				477030521A07C99F0032B455 /* switchVertical.png in Resources */,
+				4759C9D91A431FF900728B5F /* heimat-icon.icns in Resources */,
+				4715BF161A067D12003A4F6F /* icon.png in Resources */,
+				4771237A1A23ADE6004B188D /* HeyMateVST2-Info.plist in Resources */,
+				4777E7CA1A02CB4900D626E1 /* handle.png in Resources */,
+				4745129919FE4C4D002D9138 /* PkgInfo in Resources */,
+				4745129A19FE4C4D002D9138 /* knobbackground.png in Resources */,
+				477030561A07CD5F0032B455 /* switch.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AECC7919CB1AA50066BE88 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AECC8919CB1AA50066BE88 /* InfoPlist.strings in Resources */,
+				477030511A07C99F0032B455 /* switchVertical.png in Resources */,
+				4715BF151A067D12003A4F6F /* icon.png in Resources */,
+				474203C819FFA9F2005EB8F4 /* HeyMate-Info.plist in Resources */,
+				4759C9D81A431FF900728B5F /* heimat-icon.icns in Resources */,
+				47502C7319F7EA0700D46C58 /* background.png in Resources */,
+				4777E7C91A02CA9500D626E1 /* handle.png in Resources */,
+				477030551A07CD5F0032B455 /* switch.png in Resources */,
+				47AECC8F19CB1B250066BE88 /* PkgInfo in Resources */,
+				47D9BBD619F8EDF70057E5A8 /* knobbackground.png in Resources */,
+				47096C901A2CA7F000A9197E /* background_iOS.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		474203F019FFD5CB005EB8F4 /* Make Symbolic Link */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Make Symbolic Link";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$CONFIGURATION\" == \"Debug\" ]]\nthen\nmkdir -p ~/Library/Audio/Plug-Ins/VST3/\ncd ~/Library/Audio/Plug-Ins/VST3/\nln -f -s \"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME\" .\nfi\n";
+		};
+		474203F119FFD781005EB8F4 /* Make Symbolic Link */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Make Symbolic Link";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$CONFIGURATION\" == \"Debug\" ]]\nthen\nmkdir -p ~/Library/Audio/Plug-Ins/VST3/\ncd ~/Library/Audio/Plug-Ins/VST3/\nln -f -s \"$BUILT_PRODUCTS_DIR/$WRAPPER_NAME\" .\nfi";
+		};
+		4745129B19FE4C4D002D9138 /* Copy In Plug-Ins Library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy In Plug-Ins Library";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -R -f -p -v \"$BUILT_PRODUCTS_DIR/HeyMateVST2.vst\" \"/Library/Audio/Plug-Ins/VST\"";
+		};
+		47ADD14019FACF4C000C1121 /* Copy In Plug-Ins Library */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy In Plug-Ins Library";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -R -f -p -v \"$BUILT_PRODUCTS_DIR/HeyMate.vst3\" \"/Library/Audio/Plug-Ins/VST3\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		473AC17919EC0D40005D589E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473AC1C119EC0F0D005D589E /* pluginfactoryvst3.cpp in Sources */,
+				4770D4AC19F6A06400579BF8 /* EffectBase.cpp in Sources */,
+				473AC1DE19EC0F51005D589E /* updatehandler.cpp in Sources */,
+				473AC1E619EC0F93005D589E /* Processor.cpp in Sources */,
+				477DFCC419F028F40075D2BB /* SettingsViewController.mm in Sources */,
+				4757000B19F14DD0005C9729 /* eventlist.cpp in Sources */,
+				47D3C6E31A02A1D500CAA8BE /* Slider.cpp in Sources */,
+				473AC1DB19EC0F51005D589E /* fthread.cpp in Sources */,
+				473AC1EA19EC0F93005D589E /* Delay.cpp in Sources */,
+				473AC1CA19EC0F51005D589E /* baseiids.cpp in Sources */,
+				4784652519EEE374008127CF /* MidiIO.mm in Sources */,
+				4757FFC119F14CAA005C9729 /* vstpresetfile.cpp in Sources */,
+				473AC1BE19EC0EF8005D589E /* ustring.cpp in Sources */,
+				473AC19519EC0D40005D589E /* ViewController.mm in Sources */,
+				473AC1D019EC0F51005D589E /* fcriticalperformance.cpp in Sources */,
+				473AC1C819EC0F22005D589E /* vstparameters.cpp in Sources */,
+				473AC1D819EC0F51005D589E /* fregion.cpp in Sources */,
+				473AC1DA19EC0F51005D589E /* fstring.cpp in Sources */,
+				473AC1C019EC0F0D005D589E /* macmain.cpp in Sources */,
+				473AC1D619EC0F51005D589E /* fpoint.cpp in Sources */,
+				473AC1E119EC0F7E005D589E /* Knob.cpp in Sources */,
+				4715BF1C1A0696CC003A4F6F /* KickButton.cpp in Sources */,
+				4757000319F14D7F005C9729 /* NSDataIBStream.mm in Sources */,
+				473AC1D419EC0F51005D589E /* fmemory.cpp in Sources */,
+				4770D4BE19F6F34D00579BF8 /* GraphicComponentsList.cpp in Sources */,
+				4757000A19F14DC8005C9729 /* processdata.cpp in Sources */,
+				473AC1BD19EC0EF8005D589E /* funknown.cpp in Sources */,
+				473AC1C419EC0F22005D589E /* vstcomponent.cpp in Sources */,
+				473AC1CE19EC0F51005D589E /* fbuffer.cpp in Sources */,
+				473AC1CD19EC0F51005D589E /* fbitset.cpp in Sources */,
+				473AC1CB19EC0F51005D589E /* classfactory.cpp in Sources */,
+				4739CDD01A13C81300A328DB /* Keystroke.cpp in Sources */,
+				4757FFD119F14D31005C9729 /* parameterchanges.cpp in Sources */,
+				477DFCBD19F028F40075D2BB /* HostApp.mm in Sources */,
+				47BAC4DC1A07F2930037470A /* SwitchHorizontal.cpp in Sources */,
+				473AC1E019EC0F73005D589E /* ParametersDescription.cpp in Sources */,
+				473AC1DC19EC0F51005D589E /* istreamwrapper.cpp in Sources */,
+				473AC1BF19EC0F07005D589E /* pluginview.cpp in Sources */,
+				473AC1DD19EC0F51005D589E /* timer.cpp in Sources */,
+				473AC18F19EC0D40005D589E /* AppDelegate.mm in Sources */,
+				4739CDCF1A13C81300A328DB /* Keyboard.cpp in Sources */,
+				473AC1DF19EC0F65005D589E /* factory.cpp in Sources */,
+				4770D4B119F6D42500579BF8 /* Editor.cpp in Sources */,
+				473AC18B19EC0D40005D589E /* main.m in Sources */,
+				477DFCBF19F028F40075D2BB /* PresetBrowserViewController.mm in Sources */,
+				473AC1CF19EC0F51005D589E /* fcpu.cpp in Sources */,
+				4770D4B219F6D45700579BF8 /* vstguieditor.cpp in Sources */,
+				473AC1E819EC0F93005D589E /* Voice.cpp in Sources */,
+				473AC1D919EC0F51005D589E /* fstreamer.cpp in Sources */,
+				4784652419EEE374008127CF /* AudioIO.mm in Sources */,
+				473AC1C519EC0F22005D589E /* vstcomponentbase.cpp in Sources */,
+				473AC1D719EC0F51005D589E /* frect.cpp in Sources */,
+				477DFCC219F028F40075D2BB /* PresetSaveViewController.mm in Sources */,
+				4770D4B319F6D45F00579BF8 /* vstgui_ios.mm in Sources */,
+				473AC1D219EC0F51005D589E /* fdynlib.cpp in Sources */,
+				473AC1BC19EC0EF8005D589E /* conststringtable.cpp in Sources */,
+				473AC1E919EC0F93005D589E /* EffectProcessor.cpp in Sources */,
+				473AC1C719EC0F22005D589E /* vstinitiids.cpp in Sources */,
+				473AC1D519EC0F51005D589E /* fobject.cpp in Sources */,
+				4757000C19F14DD5005C9729 /* hostclasses.cpp in Sources */,
+				47AEEB5B1A07B3D20093C335 /* SwitchVertical.cpp in Sources */,
+				473AC1C619EC0F22005D589E /* vsteditcontroller.cpp in Sources */,
+				4770D4B719F6DC5200579BF8 /* GraphicHelp.mm in Sources */,
+				473AC1C219EC0F22005D589E /* vstaudioeffect.cpp in Sources */,
+				473AC1D319EC0F51005D589E /* finitializer.cpp in Sources */,
+				473AC1C319EC0F22005D589E /* vstbus.cpp in Sources */,
+				473AC1CC19EC0F51005D589E /* fatomic.cpp in Sources */,
+				4784652619EEE390008127CF /* VST3Plugin.mm in Sources */,
+				473AC1D119EC0F51005D589E /* fdebug.cpp in Sources */,
+				473AC1E419EC0F8A005D589E /* Controller.cpp in Sources */,
+				4715BF131A066D64003A4F6F /* OnOffButton.cpp in Sources */,
+				473AC1E719EC0F93005D589E /* VoiceProcessor.cpp in Sources */,
+				47E1A70C19FF90D80044D936 /* PresetManager.mm in Sources */,
+				47ABEA561A053A710096EE24 /* TextLabel.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4745126619FE4C4D002D9138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474203D119FFD0DA005EB8F4 /* fdynlib.cpp in Sources */,
+				4745126719FE4C4D002D9138 /* fdebug.cpp in Sources */,
+				47BAC4D61A07E8AC0037470A /* SwitchVertical.cpp in Sources */,
+				4745126819FE4C4D002D9138 /* baseiids.cpp in Sources */,
+				4745126919FE4C4D002D9138 /* GraphicHelp.mm in Sources */,
+				4739CDC81A139DAD00A328DB /* Keyboard.cpp in Sources */,
+				4745126A19FE4C4D002D9138 /* EffectBase.cpp in Sources */,
+				474203D719FFD0E7005EB8F4 /* fpoint.cpp in Sources */,
+				47D3C6E11A02992F00CAA8BE /* Slider.cpp in Sources */,
+				4745126B19FE4C4D002D9138 /* fthread.cpp in Sources */,
+				4745126C19FE4C4D002D9138 /* HeyMate_vst2wrapper.cpp in Sources */,
+				4745126D19FE4C4D002D9138 /* vstcomponent.cpp in Sources */,
+				474203CB19FFD0C9005EB8F4 /* fbitset.cpp in Sources */,
+				4745126E19FE4C4D002D9138 /* ParametersDescription.cpp in Sources */,
+				4745126F19FE4C4D002D9138 /* Voice.cpp in Sources */,
+				4745127019FE4C4D002D9138 /* vst2wrapper.sdk.cpp in Sources */,
+				4745127119FE4C4D002D9138 /* conststringtable.cpp in Sources */,
+				4745127219FE4C4D002D9138 /* vstaudioeffect.cpp in Sources */,
+				4745127319FE4C4D002D9138 /* vstparameters.cpp in Sources */,
+				4745127519FE4C4D002D9138 /* factory.cpp in Sources */,
+				4745127619FE4C4D002D9138 /* vstgui_mac.mm in Sources */,
+				4715BF1B1A0696CC003A4F6F /* KickButton.cpp in Sources */,
+				4745127719FE4C4D002D9138 /* ustring.cpp in Sources */,
+				4745127819FE4C4D002D9138 /* vstinitiids.cpp in Sources */,
+				4745127919FE4C4D002D9138 /* Controller.cpp in Sources */,
+				4745127A19FE4C4D002D9138 /* vstbus.cpp in Sources */,
+				4745127B19FE4C4D002D9138 /* fobject.cpp in Sources */,
+				4745127C19FE4C4D002D9138 /* Delay.cpp in Sources */,
+				4745127D19FE4C4D002D9138 /* fbuffer.cpp in Sources */,
+				4745127E19FE4C4D002D9138 /* macmain.cpp in Sources */,
+				474203D519FFD0E1005EB8F4 /* fmemory.cpp in Sources */,
+				4745127F19FE4C4D002D9138 /* GraphicComponentsList.cpp in Sources */,
+				4745128019FE4C4D002D9138 /* fstring.cpp in Sources */,
+				4745128119FE4C4D002D9138 /* fstreamer.cpp in Sources */,
+				4745128219FE4C4D002D9138 /* Editor.cpp in Sources */,
+				4745128319FE4C4D002D9138 /* pluginview.cpp in Sources */,
+				4745128419FE4C4D002D9138 /* vstcomponentbase.cpp in Sources */,
+				4745128519FE4C4D002D9138 /* vsteditcontroller.cpp in Sources */,
+				474203D919FFD0EB005EB8F4 /* frect.cpp in Sources */,
+				4715BF121A066D64003A4F6F /* OnOffButton.cpp in Sources */,
+				4745128619FE4C4D002D9138 /* Processor.cpp in Sources */,
+				474203DB19FFD0EE005EB8F4 /* fregion.cpp in Sources */,
+				47BAC4DB1A07F2930037470A /* SwitchHorizontal.cpp in Sources */,
+				4745128719FE4C4D002D9138 /* timer.cpp in Sources */,
+				4745128819FE4C4D002D9138 /* Knob.cpp in Sources */,
+				4745128919FE4C4D002D9138 /* EffectProcessor.cpp in Sources */,
+				474203D319FFD0DE005EB8F4 /* finitializer.cpp in Sources */,
+				4739CDCD1A139DDB00A328DB /* Keystroke.cpp in Sources */,
+				474203CA19FFD0C4005EB8F4 /* classfactory.cpp in Sources */,
+				4745128A19FE4C4D002D9138 /* VoiceProcessor.cpp in Sources */,
+				4745128B19FE4C4D002D9138 /* funknown.cpp in Sources */,
+				4745128C19FE4C4D002D9138 /* vstguieditor.cpp in Sources */,
+				4745128D19FE4C4D002D9138 /* fatomic.cpp in Sources */,
+				47ABEA551A053A710096EE24 /* TextLabel.cpp in Sources */,
+				4745128E19FE4C4D002D9138 /* pluginfactoryvst3.cpp in Sources */,
+				474203DD19FFD0FC005EB8F4 /* istreamwrapper.cpp in Sources */,
+				4745128F19FE4C4D002D9138 /* updatehandler.cpp in Sources */,
+				474203CD19FFD0D0005EB8F4 /* fcpu.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47AECC7719CB1AA50066BE88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47AECCE819CB269F0066BE88 /* fdebug.cpp in Sources */,
+				47AECCE119CB269F0066BE88 /* baseiids.cpp in Sources */,
+				4770D4B619F6DC4A00579BF8 /* GraphicHelp.mm in Sources */,
+				4770D4AD19F6A06800579BF8 /* EffectBase.cpp in Sources */,
+				47AECCF219CB269F0066BE88 /* fthread.cpp in Sources */,
+				4715BF111A066D64003A4F6F /* OnOffButton.cpp in Sources */,
+				47ABEA541A053A710096EE24 /* TextLabel.cpp in Sources */,
+				474203CC19FFD0CA005EB8F4 /* fbitset.cpp in Sources */,
+				470EBF5E19FAA45C00C9A018 /* vstcomponent.cpp in Sources */,
+				47F494F219D01C1500965566 /* ParametersDescription.cpp in Sources */,
+				474203DE19FFD0FC005EB8F4 /* istreamwrapper.cpp in Sources */,
+				4758BC7519D864BE0044F0DD /* Voice.cpp in Sources */,
+				474203D819FFD0E8005EB8F4 /* fpoint.cpp in Sources */,
+				4738120319D965E70091FE7D /* conststringtable.cpp in Sources */,
+				470EBF6919FABB7A00C9A018 /* vstaudioeffect.cpp in Sources */,
+				477123781A23AD56004B188D /* Keyboard.cpp in Sources */,
+				47BAC4DA1A07F2930037470A /* SwitchHorizontal.cpp in Sources */,
+				470EBF6119FAA45C00C9A018 /* vstparameters.cpp in Sources */,
+				474203DA19FFD0EB005EB8F4 /* frect.cpp in Sources */,
+				4758A04019D988BE0044FB2E /* vstgui_mac.mm in Sources */,
+				47AECF6219CB28400066BE88 /* ustring.cpp in Sources */,
+				47EEF3B819EB32E400E5341C /* vstinitiids.cpp in Sources */,
+				474203C919FFD0BB005EB8F4 /* classfactory.cpp in Sources */,
+				47B937FB19CC6D6D00B18B29 /* Controller.cpp in Sources */,
+				470EBF5D19FAA45C00C9A018 /* vstbus.cpp in Sources */,
+				47AECCEC19CB269F0066BE88 /* fobject.cpp in Sources */,
+				47F25D5819DB3C7200EFDBD8 /* Delay.cpp in Sources */,
+				47AECCE519CB269F0066BE88 /* fbuffer.cpp in Sources */,
+				4758A03C19D983E30044FB2E /* macmain.cpp in Sources */,
+				4770D4BD19F6F34D00579BF8 /* GraphicComponentsList.cpp in Sources */,
+				474512A519FE673C002D9138 /* factory.cpp in Sources */,
+				477123791A23AD56004B188D /* Keystroke.cpp in Sources */,
+				47D3C6E01A02992F00CAA8BE /* Slider.cpp in Sources */,
+				47AECCF119CB269F0066BE88 /* fstring.cpp in Sources */,
+				474203D619FFD0E2005EB8F4 /* fmemory.cpp in Sources */,
+				47AECCF019CB269F0066BE88 /* fstreamer.cpp in Sources */,
+				474203D219FFD0DA005EB8F4 /* fdynlib.cpp in Sources */,
+				470EBF3919FA870800C9A018 /* Editor.cpp in Sources */,
+				474203DC19FFD0EE005EB8F4 /* fregion.cpp in Sources */,
+				473A255119EA8C80007A454E /* pluginview.cpp in Sources */,
+				474203CE19FFD0D1005EB8F4 /* fcpu.cpp in Sources */,
+				474203D419FFD0DF005EB8F4 /* finitializer.cpp in Sources */,
+				470EBF5F19FAA45C00C9A018 /* vstcomponentbase.cpp in Sources */,
+				470EBF6019FAA45C00C9A018 /* vsteditcontroller.cpp in Sources */,
+				4715BF1A1A0696CC003A4F6F /* KickButton.cpp in Sources */,
+				47B937F619CC657700B18B29 /* Processor.cpp in Sources */,
+				47AECCF419CB269F0066BE88 /* timer.cpp in Sources */,
+				47C8D29719E5BA3B008DA86D /* Knob.cpp in Sources */,
+				4758A04719D9B5530044FB2E /* EffectProcessor.cpp in Sources */,
+				4758BC6F19D84FC40044F0DD /* VoiceProcessor.cpp in Sources */,
+				4738120419D965E70091FE7D /* funknown.cpp in Sources */,
+				470EBF5C19FAA39C00C9A018 /* vstguieditor.cpp in Sources */,
+				47AECCE319CB269F0066BE88 /* fatomic.cpp in Sources */,
+				4758A04119D98EB10044FB2E /* pluginfactoryvst3.cpp in Sources */,
+				47BAC4D71A07E8AD0037470A /* SwitchVertical.cpp in Sources */,
+				47AECCF519CB269F0066BE88 /* updatehandler.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		473AC18719EC0D40005D589E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				473AC18819EC0D40005D589E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		473AC19019EC0D40005D589E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				473AC19119EC0D40005D589E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47AECC8719CB1AA50066BE88 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47AECC8819CB1AA50066BE88 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		473AC1AB19EC0D41005D589E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeyMate/SupportingFiles/iOS/HeyMateApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "HeyMate/SupportingFiles/iOS/HeyMateApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.1;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		473AC1AC19EC0D41005D589E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HeyMate/SupportingFiles/iOS/HeyMateApp-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "HeyMate/SupportingFiles/iOS/HeyMateApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos7.1;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4745129D19FE4C4D002D9138 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEVELOPMENT=1",
+					"DEBUG=1",
+					"RELEASE=0",
+					"VSTGUI_LIVE_EDITING=0",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HeyMate/SupportingFiles/HeyMateVST2-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = __PLIST__;
+				INSTALL_PATH = "/Library/Audio/Plug-ins/VST/";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = HeyMateVST2;
+				SDKROOT = macosx10.9;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../\"VST3 SDK\"/** $(SRCROOT)/../\"VST3 SDK\"/vstgui4/vstgui/**";
+				WRAPPER_EXTENSION = vst;
+			};
+			name = Debug;
+		};
+		4745129E19FE4C4D002D9138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEVELOPMENT=1",
+					"DEBUG=0",
+					"RELEASE=1",
+					"VSTGUI_LIVE_EDITING=0",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HeyMate/SupportingFiles/HeyMateVST2-Info.plist";
+				INFOPLIST_PREPROCESS = YES;
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = __PLIST__;
+				INSTALL_PATH = "/Library/Audio/Plug-ins/VST/";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = HeyMateVST2;
+				SDKROOT = macosx10.9;
+				SEPARATE_STRIP = YES;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../\"VST3 SDK\"/** $(SRCROOT)/../\"VST3 SDK\"/vstgui4/vstgui/**";
+				WRAPPER_EXTENSION = vst;
+			};
+			name = Release;
+		};
+		47AECC7519CB1A210066BE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEVELOPMENT=1",
+					"DEBUG=1",
+					"RELEASE=0",
+					"VSTGUI_LIVE_EDITING=0",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-fdiagnostics-show-option";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = macosx10.9;
+				SUPPORTED_PLATFORMS = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../\"VST3 SDK\"/** $(SRCROOT)/../\"VST3 SDK\"/vstgui4/vstgui/**";
+			};
+			name = Debug;
+		};
+		47AECC7619CB1A210066BE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEVELOPMENT=1",
+					"DEBUG=0",
+					"RELEASE=1",
+					"VSTGUI_LIVE_EDITING=0",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-fdiagnostics-show-option";
+				PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR = YES;
+				SDKROOT = macosx10.9;
+				SUPPORTED_PLATFORMS = macosx;
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../\"VST3 SDK\"/** $(SRCROOT)/../\"VST3 SDK\"/vstgui4/vstgui/**";
+			};
+			name = Release;
+		};
+		47AECC8C19CB1AA50066BE88 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEPLOYMENT_POSTPROCESSING = NO;
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEVELOPMENT=1",
+					"DEBUG=1",
+					"RELEASE=0",
+					"VSTGUI_LIVE_EDITING=0",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HeyMate/SupportingFiles/HeyMate-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "";
+				INFOPLIST_PREPROCESS = YES;
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = __PLIST__;
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/VST3/";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../\"VST3 SDK\"/** $(SRCROOT)/../\"VST3 SDK\"/vstgui4/vstgui/**";
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Debug;
+		};
+		47AECC8D19CB1AA50066BE88 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEVELOPMENT=1",
+					"DEBUG=0",
+					"RELEASE=1",
+					"VSTGUI_LIVE_EDITING=0",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/HeyMate/SupportingFiles/HeyMate-Info.plist";
+				INFOPLIST_PREFIX_HEADER = "";
+				INFOPLIST_PREPROCESS = YES;
+				INFOPLIST_PREPROCESSOR_DEFINITIONS = __PLIST__;
+				INSTALL_PATH = "/Library/Audio/Plug-Ins/VST3/";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SEPARATE_STRIP = YES;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-16";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../\"VST3 SDK\"/** $(SRCROOT)/../\"VST3 SDK\"/vstgui4/vstgui/**";
+				WRAPPER_EXTENSION = vst3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		473AC1AF19EC0D41005D589E /* Build configuration list for PBXNativeTarget "HeyMateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				473AC1AB19EC0D41005D589E /* Debug */,
+				473AC1AC19EC0D41005D589E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4745129C19FE4C4D002D9138 /* Build configuration list for PBXNativeTarget "HeyMateVST2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4745129D19FE4C4D002D9138 /* Debug */,
+				4745129E19FE4C4D002D9138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47AECC7419CB1A210066BE88 /* Build configuration list for PBXProject "HeyMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AECC7519CB1A210066BE88 /* Debug */,
+				47AECC7619CB1A210066BE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47AECC8B19CB1AA50066BE88 /* Build configuration list for PBXNativeTarget "HeyMate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47AECC8C19CB1AA50066BE88 /* Debug */,
+				47AECC8D19CB1AA50066BE88 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47AECC7119CB1A210066BE88 /* Project object */;
+}
